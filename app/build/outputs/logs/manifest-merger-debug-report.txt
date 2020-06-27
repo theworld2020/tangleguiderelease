@@ -1,0 +1,169 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:2:1-32:12
+MERGED from [com.android.databinding:adapters:3.6.3] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/0803b4a3e8b8c76c77ca3a619bba9b66/adapters-3.6.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:library:3.6.3] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/9645a4deb37de943314c56e921e359ca/library-3.6.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/99e8e6fa91d67182482ae88e626de8bc/design-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/3d1a908579d96cd1d1594ba5743fe43e/appcompat-v7-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/6b866ccf05a0e885840ca703dc092d51/constraint-layout-1.0.2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/083f334048c8fbaba375caf81cff7d3f/glide-4.6.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/8918d63888b99502db84349b796ddaa6/recyclerview-v7-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.databinding:viewbinding:3.6.3] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/45b04a3e363897b9eada65e5d84e5934/viewbinding-3.6.3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/5aa584a1fcbdd7b855dc6e8184b41246/support-v4-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/c1b48305071f64e88a819d65a04e1697/support-fragment-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/a0e36292892f9e96f25c30b9eaf55f65/animated-vector-drawable-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/0664eedfbcba1d0483cedf26459d11ee/support-core-ui-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/db5ae4884c6dcfef0da435806a2dd48a/support-core-utils-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/50142c5f6ff82d7e7bce1a2ff75a0d3f/support-vector-drawable-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/0b97373b06917609e04119a2f47ade7e/transition-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/a099aa1fa32596a58c5b73cbab3604e4/support-media-compat-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/091070a41b346f526f507e23b95f24fa/support-compat-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/61ac7c43cc70f2024b434dea4cac8c71/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/c477e1e0e8a2186ad95c5b61258fa400/gifdecoder-4.6.1/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/df57c66ccef6c23045b0eb90c1dc7f86/livedata-core-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/aa20964aa788cd55cc30e26e8d003b21/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/a01d6d5b2a5abbbcbecf279c53fc9895/viewmodel-1.1.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:3:5-42
+		INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:6:22-76
+application
+ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:8:5-30:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/6b866ccf05a0e885840ca703dc092d51/constraint-layout-1.0.2/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/6b866ccf05a0e885840ca703dc092d51/constraint-layout-1.0.2/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/083f334048c8fbaba375caf81cff7d3f/glide-4.6.1/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/083f334048c8fbaba375caf81cff7d3f/glide-4.6.1/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/c477e1e0e8a2186ad95c5b61258fa400/gifdecoder-4.6.1/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/c477e1e0e8a2186ad95c5b61258fa400/gifdecoder-4.6.1/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:14:9-40
+activity#tanglemaster3D.tangle.guide.view.MainActivity
+ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:15:9-24:20
+	android:label
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:17:13-45
+	android:theme
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:18:13-56
+	android:name
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:16:13-73
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:22:27-74
+activity#tanglemaster3D.tangle.guide.view.WebViewActivity
+ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:25:9-84
+	android:name
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:25:19-82
+activity#tanglemaster3D.tangle.guide.view.WebViewActivity2
+ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:26:9-85
+	android:name
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:26:19-83
+activity#tanglemaster3D.tangle.guide.view.WebViewActivity3
+ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:27:9-85
+	android:name
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:27:19-83
+activity#tanglemaster3D.tangle.guide.view.WebViewActivity4
+ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:28:9-85
+	android:name
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:28:19-83
+activity#tanglemaster3D.tangle.guide.view.Support
+ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:29:9-76
+	android:name
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml:29:19-74
+uses-sdk
+INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml
+INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml
+MERGED from [com.android.databinding:adapters:3.6.3] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/0803b4a3e8b8c76c77ca3a619bba9b66/adapters-3.6.3/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:adapters:3.6.3] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/0803b4a3e8b8c76c77ca3a619bba9b66/adapters-3.6.3/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.6.3] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/9645a4deb37de943314c56e921e359ca/library-3.6.3/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.6.3] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/9645a4deb37de943314c56e921e359ca/library-3.6.3/AndroidManifest.xml:22:5-44
+MERGED from [com.android.support:design:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/99e8e6fa91d67182482ae88e626de8bc/design-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/99e8e6fa91d67182482ae88e626de8bc/design-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/3d1a908579d96cd1d1594ba5743fe43e/appcompat-v7-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/3d1a908579d96cd1d1594ba5743fe43e/appcompat-v7-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/6b866ccf05a0e885840ca703dc092d51/constraint-layout-1.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/6b866ccf05a0e885840ca703dc092d51/constraint-layout-1.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/083f334048c8fbaba375caf81cff7d3f/glide-4.6.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/083f334048c8fbaba375caf81cff7d3f/glide-4.6.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/8918d63888b99502db84349b796ddaa6/recyclerview-v7-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/8918d63888b99502db84349b796ddaa6/recyclerview-v7-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.databinding:viewbinding:3.6.3] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/45b04a3e363897b9eada65e5d84e5934/viewbinding-3.6.3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.databinding:viewbinding:3.6.3] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/45b04a3e363897b9eada65e5d84e5934/viewbinding-3.6.3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/5aa584a1fcbdd7b855dc6e8184b41246/support-v4-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/5aa584a1fcbdd7b855dc6e8184b41246/support-v4-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/c1b48305071f64e88a819d65a04e1697/support-fragment-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/c1b48305071f64e88a819d65a04e1697/support-fragment-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/a0e36292892f9e96f25c30b9eaf55f65/animated-vector-drawable-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/a0e36292892f9e96f25c30b9eaf55f65/animated-vector-drawable-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/0664eedfbcba1d0483cedf26459d11ee/support-core-ui-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/0664eedfbcba1d0483cedf26459d11ee/support-core-ui-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/db5ae4884c6dcfef0da435806a2dd48a/support-core-utils-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/db5ae4884c6dcfef0da435806a2dd48a/support-core-utils-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/50142c5f6ff82d7e7bce1a2ff75a0d3f/support-vector-drawable-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/50142c5f6ff82d7e7bce1a2ff75a0d3f/support-vector-drawable-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/0b97373b06917609e04119a2f47ade7e/transition-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/0b97373b06917609e04119a2f47ade7e/transition-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/a099aa1fa32596a58c5b73cbab3604e4/support-media-compat-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/a099aa1fa32596a58c5b73cbab3604e4/support-media-compat-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/091070a41b346f526f507e23b95f24fa/support-compat-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/091070a41b346f526f507e23b95f24fa/support-compat-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/61ac7c43cc70f2024b434dea4cac8c71/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/61ac7c43cc70f2024b434dea4cac8c71/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/c477e1e0e8a2186ad95c5b61258fa400/gifdecoder-4.6.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/c477e1e0e8a2186ad95c5b61258fa400/gifdecoder-4.6.1/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/df57c66ccef6c23045b0eb90c1dc7f86/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/df57c66ccef6c23045b0eb90c1dc7f86/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/aa20964aa788cd55cc30e26e8d003b21/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/aa20964aa788cd55cc30e26e8d003b21/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/a01d6d5b2a5abbbcbecf279c53fc9895/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/selvakumarmuruganantham/.gradle/caches/transforms-2/files-2.1/a01d6d5b2a5abbbcbecf279c53fc9895/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml
+INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml
+		ADDED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/selvakumarmuruganantham/Document/AndroidProject/Tanglefinal/app/src/main/AndroidManifest.xml
