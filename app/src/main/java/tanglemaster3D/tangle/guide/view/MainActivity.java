@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
             }
             else if (Objects.equals(url, "https://thinnaikathai.com/apps/tangle/5.jpg"))
             {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=PackageName")));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" +getPackageName())));
             }
             else if (Objects.equals(url, "https://thinnaikathai.com/apps/tangle/6.jpg"))
             {
