@@ -3,30 +3,40 @@ package tanglemaster3D.tangle.guide.view;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
-import android.databinding.DataBindingUtil;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.RequiresApi;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import android.util.DisplayMetrics;
 import android.util.TypedValue;
+import android.view.Display;
 import android.view.View;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
 import java.util.ArrayList;
 import java.util.Objects;
 
+import androidx.annotation.RequiresApi;
+import androidx.databinding.DataBindingUtil;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import tanglemaster3D.tangle.guide.R;
 import tanglemaster3D.tangle.guide.databinding.ActivityMainBinding;
 import tanglemaster3D.tangle.guide.model.Post;
 import tanglemaster3D.tangle.guide.model.User;
 import tanglemaster3D.tangle.guide.utils.GridSpacingItemDecoration;
 
-public class MainActivity extends AppCompatActivity implements PostsAdapter.PostsAdapterListener {
+public class MainActivity extends Admob implements PostsAdapter.PostsAdapterListener  {
+
 
     private MyClickHandlers handlers;
     private PostsAdapter mAdapter;
@@ -35,16 +45,32 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
     private User user;
     private ImageView imageView;
     public ImageView imgClick;
+
+    // This is an ad unit ID for a test ad. Replace with your own banner ad unit ID.
+  //  private static final String AD_UNIT_ID = "ca-app-pub-3940256099942544/9214589741";
+    //Original
+    private static final String AD_UNIT_ID = "ca-app-pub-9916013140756269/2810055735";
+    private FrameLayout adContainerView;
+    private AdView adView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+        startGame();
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+        adContainerView = findViewById(R.id.ad_view_container);
 
-        /*Toolbar toolbar = binding.toolbar;
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle(R.string.toolbar_profile);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);*/
+        adContainerView.post(new Runnable() {
+            @Override
+            public void run() {
+                loadBanner();
+            }
+        });
 
         handlers = new MyClickHandlers(this);
 
@@ -52,6 +78,7 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
 
         renderProfile();
         imgClick = (ImageView)findViewById(R.id.playprotect);
+
 
         imgClick.setOnClickListener(new View.OnClickListener() {
 
@@ -123,22 +150,26 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
             {
                 Intent intent = new Intent(this, WebViewActivity.class);
                 startActivity(intent);
+                showInterstitial();
             }
             else if (Objects.equals(url, "https://thinnaikathai.com/apps/tangle/2.jpg"))
             {
                 Intent intent = new Intent(this, WebViewActivity2.class);
                 startActivity(intent);
+                showInterstitial();
             }
 
             else if (Objects.equals(url, "https://thinnaikathai.com/apps/tangle/3.jpg"))
             {
                 Intent intent = new Intent(this, WebViewActivity3.class);
                 startActivity(intent);
+                showInterstitial();
             }
             else if (Objects.equals(url, "https://thinnaikathai.com/apps/tangle/4.jpg"))
             {
                 Intent intent = new Intent(this, WebViewActivity4.class);
                 startActivity(intent);
+                showInterstitial();
             }
             else if (Objects.equals(url, "https://thinnaikathai.com/apps/tangle/5.jpg"))
             {
@@ -148,6 +179,7 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
             {
                 Intent intent = new Intent(this, Support.class);
                 startActivity(intent);
+                showInterstitial();
             }
     }
 
@@ -200,5 +232,70 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
     private int dpToPx(int dp) {
         Resources r = getResources();
         return Math.round(TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, r.getDisplayMetrics()));
+    }
+    /**
+     * Called when returning to the activity
+     */
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (adView != null) {
+            adView.resume();
+        }
+    }
+
+    /**
+     * Called before the activity is destroyed
+     */
+    @Override
+    public void onDestroy() {
+        if (adView != null) {
+            adView.destroy();
+        }
+        super.onDestroy();
+    }
+
+    @Override
+    public void onPause() {
+        if (adView != null) {
+            adView.pause();
+        }
+        super.onPause();
+    }
+
+    void loadBanner() {
+        // Create an ad request.
+        adView = new AdView(this);
+        adView.setAdUnitId(AD_UNIT_ID);
+        adContainerView.removeAllViews();
+        adContainerView.addView(adView);
+
+        AdSize adSize = getAdSize();
+        adView.setAdSize(adSize);
+
+        AdRequest adRequest = new AdRequest.Builder().build();
+
+        // Start loading the ad in the background.
+        adView.loadAd(adRequest);
+    }
+
+    private AdSize getAdSize() {
+        // Determine the screen width (less decorations) to use for the ad width.
+        Display display = getWindowManager().getDefaultDisplay();
+        DisplayMetrics outMetrics = new DisplayMetrics();
+        display.getMetrics(outMetrics);
+
+        float density = outMetrics.density;
+
+        float adWidthPixels = adContainerView.getWidth();
+
+        // If the ad hasn't been laid out, default to the full screen width.
+        if (adWidthPixels == 0) {
+            adWidthPixels = outMetrics.widthPixels;
+        }
+
+        int adWidth = (int) (adWidthPixels / density);
+
+        return AdSize.getCurrentOrientationBannerAdSizeWithWidth(this, adWidth);
     }
 }

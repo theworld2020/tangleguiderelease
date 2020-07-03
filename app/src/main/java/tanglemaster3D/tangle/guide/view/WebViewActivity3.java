@@ -27,7 +27,7 @@ public class WebViewActivity3 extends Admob {
 		setContentView(R.layout.webviewlayout);
 		if (Utils.isNetworkAvailable(WebViewActivity3.this)) {
 
-			showAds();
+//			showAds();
 
 		} else {
 			LinearLayout layoutid = (LinearLayout) findViewById(R.id.adView);
@@ -72,7 +72,7 @@ public class WebViewActivity3 extends Admob {
 
 	}
 
-	protected void onDestroy() {
+	public void onDestroy() {
 		// TODO Auto-generated method stub
 		super.onDestroy();
 		wb = null;

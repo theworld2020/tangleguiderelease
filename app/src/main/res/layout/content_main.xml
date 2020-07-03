@@ -14,7 +14,7 @@
             type="tanglemaster3D.tangle.guide.view.MainActivity.MyClickHandlers" />
     </data>
 
-    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
@@ -146,56 +146,8 @@
                         android:background="#444">
                     </TableRow>
                 </LinearLayout>
-               <!-- <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center_horizontal"
-                    android:onClick="@{handlers::onFollowersClicked}"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="sans-serif-condensed"
-                        android:text="@{BindingUtils.convertToSuffix(user.numberOfFollowers)}"
-                        android:textColor="@color/profile_meta"
-                        android:textSize="24dp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/followers"
-                        android:textSize="@dimen/profile_meta_label" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center_horizontal"
-                    android:onClick="@{handlers::onFollowingClicked}"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="sans-serif-condensed"
-                        android:text="@{BindingUtils.convertToSuffix(user.numberOfFollowing)}"
-                        android:textColor="@color/profile_meta"
-                        android:textSize="@dimen/profile_meta" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/following"
-                        android:textSize="@dimen/profile_meta_label" />
-
-                </LinearLayout>-->
             </LinearLayout>
-
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycler_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -204,13 +156,47 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
-            <ImageView
-                android:id="@+id/playprotect"
-                android:layout_width="wrap_content"
-                android:layout_height="45dp"
-                android:layout_centerHorizontal="true"
-                android:src="@drawable/playprotect" />
+                <TableRow
+                    android:id="@+id/upperunderline"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#444">
+                </TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:background="#ff7747"
+                    android:text="Sponsored ad"/>
+                <ImageView
+                    android:id="@+id/playprotect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:background="#ff7747"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/playprotect" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="4dp"
+                    android:textColor="#ff7747"
+                    android:background="#ff7747"
+                    android:text="Sponsored ad"/>
+                <TableRow
+                    android:id="@+id/lowerunderline"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#444">
+                </TableRow>
+            </LinearLayout>
+            <FrameLayout
+                android:id="@+id/ad_view_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentBottom="true" />
         </LinearLayout>
-        </LinearLayout>
-    </android.support.v4.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
 </layout>

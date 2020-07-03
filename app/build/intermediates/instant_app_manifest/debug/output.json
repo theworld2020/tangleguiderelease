@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "tanglemaster3D.tangle.guide",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "INSTANT_APP_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 4,
+        "versionName": "1.0.3",
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "tanglemaster3D.tangle.guide",
+        "split": "",
+        "minSdkVersion": "16"
+      }
+    }
+  ]
+}

@@ -1,21 +1,13 @@
 package tanglemaster3D.tangle.guide.view;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 
 import tanglemaster3D.tangle.guide.R;
 
-public class Support extends AppCompatActivity {
+public class Support extends Admob {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.support);
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
-         /*Toolbar toolbar = binding.toolbar;
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle(R.string.toolbar_profile);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);*/
     }
 }

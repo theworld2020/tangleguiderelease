@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Studio Temp\\tangleguiderelease-adexperiment\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Studio Temp\\tangleguiderelease-adexperiment\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Studio Temp\\tangleguiderelease-adexperiment\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\post_row_item.xml",
+        "source": "D:\\Studio Temp\\tangleguiderelease-adexperiment\\app\\src\\main\\res\\layout\\post_row_item.xml"
+    },
+    {
+        "merged": "D:\\Studio Temp\\tangleguiderelease-adexperiment\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "D:\\Studio Temp\\tangleguiderelease-adexperiment\\app\\src\\main\\res\\layout\\content_main.xml"
+    }
+]

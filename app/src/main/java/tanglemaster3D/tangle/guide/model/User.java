@@ -1,9 +1,9 @@
 package tanglemaster3D.tangle.guide.model;
 
-import android.databinding.BaseObservable;
-import android.databinding.Bindable;
-import android.databinding.BindingAdapter;
-import android.databinding.ObservableField;
+import androidx.databinding.BaseObservable;
+import androidx.databinding.Bindable;
+import androidx.databinding.BindingAdapter;
+import androidx.databinding.ObservableField;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
