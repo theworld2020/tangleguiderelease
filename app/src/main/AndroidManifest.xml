@@ -38,6 +38,8 @@
         <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity3"/>
         <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity4"/>
         <activity android:name="tanglemaster3D.tangle.guide.view.Support"/>
+        <activity android:name="tanglemaster3D.tangle.guide.view.Appopen"
+            tools:ignore="Instantiatable" />
     </application>
 
 </manifest>
