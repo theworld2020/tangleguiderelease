@@ -36,6 +36,7 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
             , (tanglemaster3D.tangle.guide.databinding.ContentMainBinding) bindings[1]
             , (androidx.appcompat.widget.Toolbar) bindings[2]
             );
+        setContainedBinding(this.content);
         this.mboundView0 = (androidx.coordinatorlayout.widget.CoordinatorLayout) bindings[0];
         this.mboundView0.setTag(null);
         setRootTag(root);

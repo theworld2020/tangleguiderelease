@@ -45,6 +45,7 @@
         <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity3" />
         <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity4" />
         <activity android:name="tanglemaster3D.tangle.guide.view.Support" />
+        <activity android:name="tanglemaster3D.tangle.guide.view.Appopen" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
@@ -58,9 +59,20 @@
             android:exported="false"
             android:initOrder="100" />
 
+        <service
+            android:name="com.google.android.gms.ads.AdService"
+            android:enabled="true"
+            android:exported="false" />
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="tanglemaster3D.tangle.guide.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

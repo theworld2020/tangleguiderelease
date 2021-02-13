@@ -1,4 +1,4 @@
-#Sat Jul 04 00:25:58 IST 2020
-base.0=D\:\\Studio Temp\\tangleguiderelease-adexperiment\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Sat Feb 13 23:39:04 IST 2021
+base.0=/Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

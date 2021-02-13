@@ -12,11 +12,13 @@ import android.webkit.WebViewClient;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.lang.reflect.Method;
 
 import tanglemaster3D.tangle.guide.R;
 
-public class WebViewActivity3 extends Admob {
+public class WebViewActivity3 extends AppCompatActivity {
 	boolean pageLoaded = false;
 	EditText edit;
 	WebView wb;

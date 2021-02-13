@@ -29,7 +29,6 @@ public abstract class ActivityMainBinding extends ViewDataBinding {
       ContentMainBinding content, Toolbar toolbar) {
     super(_bindingComponent, _root, _localFieldCount);
     this.content = content;
-    setContainedBinding(this.content);
     this.toolbar = toolbar;
   }
 
