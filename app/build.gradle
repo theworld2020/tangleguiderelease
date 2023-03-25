@@ -1,18 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 31
 
     dataBinding {
         enabled = true
     }
-    lintOptions {
-        checkReleaseBuilds false
-    }
     defaultConfig {
         applicationId "tanglemaster3D.tangle.guide"
         minSdkVersion 16
-        targetSdkVersion 29
+        targetSdkVersion 31
         versionCode 4
         versionName "1.0.3"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
@@ -23,6 +20,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    lint {
+        checkReleaseBuilds false
+    }
+    namespace 'tanglemaster3D.tangle.guide'
 }
 
 dependencies {

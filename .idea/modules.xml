@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tangleguidereleaseunity.iml" filepath="$PROJECT_DIR$/.idea/modules/tangleguidereleaseunity.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/tangleguidereleaseunity.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/tangleguidereleaseunity.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unity-ads/tangleguidereleaseunity.unity-ads.iml" filepath="$PROJECT_DIR$/.idea/modules/unity-ads/tangleguidereleaseunity.unity-ads.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unity-ads 2/tangleguidereleaseunity.unity-ads_2.iml" filepath="$PROJECT_DIR$/.idea/modules/unity-ads 2/tangleguidereleaseunity.unity-ads_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tangleguiderelease1.iml" filepath="$PROJECT_DIR$/.idea/modules/tangleguiderelease1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/tangleguiderelease1.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/tangleguiderelease1.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/tangleguiderelease1.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/tangleguiderelease1.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/tangleguiderelease1.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/tangleguiderelease1.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/tangleguiderelease1.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/tangleguiderelease1.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unity-ads/tangleguiderelease1.unity-ads.iml" filepath="$PROJECT_DIR$/.idea/modules/unity-ads/tangleguiderelease1.unity-ads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unity-ads 2/tangleguiderelease1.unity-ads_2.iml" filepath="$PROJECT_DIR$/.idea/modules/unity-ads 2/tangleguiderelease1.unity-ads_2.iml" />
     </modules>
   </component>
 </project>

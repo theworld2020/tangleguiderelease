@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
         user = new User();
         user.setName("Fresh Air Apps");
         user.setEmail("david@natgeo.com");
-        user.setProfileImage("https://thinnaikathai.com/apps/tangle/profile.jpg");
+        user.setProfileImage("file:///android_assets/tangle/intro.jpg");
         user.setAbout("Presents");
 
 
@@ -104,14 +104,47 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
 
     private ArrayList<Post> getPosts() {
         ArrayList<Post> posts = new ArrayList<>();
-        for (int i = 1; i < 7; i++) {
+        for (int i = 0; i < 7; i++) {
             Post post = new Post();
-            post.setImageUrl("https://thinnaikathai.com/apps/tangle/" + i + ".jpg");
-            posts.add(post);
-
+            if (i == 1) {
+                post.setImageUrl("https://i.postimg.cc/3JFzByCm/1.jpg");
+                posts.add(post);
+            }
+            if (i == 2) {
+                post.setImageUrl("https://i.postimg.cc/Y9SSrKry/2.jpg");
+                posts.add(post);
+            }
+            if (i == 3) {
+                post.setImageUrl("https://i.postimg.cc/zG1XLRDh/4.jpg");
+                posts.add(post);
+            }
+            if (i == 4) {
+                post.setImageUrl("https://i.postimg.cc/3JFzByCm/1.jpg");
+                posts.add(post);
+            }
+            if (i == 5) {
+                post.setImageUrl("https://i.postimg.cc/Y9SSrKry/2.jpg");
+                posts.add(post);
+            }
+            if(i==6) {
+                post.setImageUrl("https://i.postimg.cc/zG1XLRDh/4.jpg");
+                posts.add(post);
+            }
         }
-
         return posts;
+
+        /*post.setImageUrl("https://i.postimg.cc/3JFzByCm/1.jpg");
+        posts.add(post);
+        return posts;
+        post.setImageUrl("https://i.postimg.cc/Y9SSrKry/2.jpg");
+        posts.add(post);
+        return posts;*/
+       // post.setImageUrl("https://drive.google.com/uc?export=view&id=15_BwcH75CUUexSpWs1wP9B_Vk_60_io8");
+
+        //posts.add(post);
+       /*post.setImageUrl("https://i.postimg.cc/zG1XLRDh/4.jpg");
+       posts.add(post);*/
+
     }
 
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
@@ -119,32 +152,32 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
     public void onPostClicked(Post post) {
 
         String url= post.getImageUrl();
-            if (Objects.equals(url, "https://thinnaikathai.com/apps/tangle/1.jpg"))
+            if (Objects.equals(url, "https://i.postimg.cc/zG1XLRDh/4.jpg"))
             {
                 Intent intent = new Intent(this, WebViewActivity.class);
                 startActivity(intent);
             }
-            else if (Objects.equals(url, "https://thinnaikathai.com/apps/tangle/2.jpg"))
+            else if (Objects.equals(url, "https://i.postimg.cc/3JFzByCm/1.jpg"))
             {
                 Intent intent = new Intent(this, WebViewActivity2.class);
                 startActivity(intent);
             }
 
-            else if (Objects.equals(url, "https://thinnaikathai.com/apps/tangle/3.jpg"))
+            else if (Objects.equals(url, "https://i.postimg.cc/Y9SSrKry/2.jpg"))
             {
                 Intent intent = new Intent(this, WebViewActivity3.class);
                 startActivity(intent);
             }
-            else if (Objects.equals(url, "https://thinnaikathai.com/apps/tangle/4.jpg"))
+            else if (Objects.equals(url, "https://i.postimg.cc/zG1XLRDh/4.jpg"))
             {
                 Intent intent = new Intent(this, WebViewActivity4.class);
                 startActivity(intent);
             }
-            else if (Objects.equals(url, "https://thinnaikathai.com/apps/tangle/5.jpg"))
+            else if (Objects.equals(url, "https://i.postimg.cc/Y0GqF6m6/3.jpg"))
             {
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" +getPackageName())));
             }
-            else if (Objects.equals(url, "https://thinnaikathai.com/apps/tangle/6.jpg"))
+            else if (Objects.equals(url, "https://i.postimg.cc/zG1XLRDh/4.jpg"))
             {
                 Intent intent = new Intent(this, Support.class);
                 startActivity(intent);

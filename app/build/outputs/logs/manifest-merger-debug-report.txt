@@ -1,362 +1,364 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:2:1-45:12
-MERGED from [androidx.databinding:databinding-adapters:4.1.2] /Users/ringer/.gradle/caches/transforms-2/files-2.1/7768ea534c93d4ccd222b122386218d2/databinding-adapters-4.1.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.databinding:databinding-runtime:4.1.2] /Users/ringer/.gradle/caches/transforms-2/files-2.1/070135ff505759722472b36a29349dfc/databinding-runtime-4.1.2/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/226f186038f7a70d4cb2c9c82e2e5bb2/material-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/32bf389d8de85727cbf065d5ae2a059f/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ringer/.gradle/caches/transforms-2/files-2.1/4ba294d4ccbb21d2f09bd452a6586169/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/7521e7a15abf8fbb173831b25185522d/jetified-glide-4.11.0/AndroidManifest.xml:2:1-12:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/ad263614364b464a5c2208dea8de1163/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-ads:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/5d9f1d7990a66d92521f65740dfab03d/jetified-play-services-ads-19.4.0/AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/4dfd7f91d73c3d799f13c10d260420ac/lifecycle-extensions-2.0.0/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-gass:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/f49fdf8b77bb78851dffdd7ab2bf3e3e/jetified-play-services-gass-19.4.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/6613f04db4e771f610ce4803144c2e22/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:17:1-47:12
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/59980577ed93ed0263b8b12100d33616/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:17:1-27:12
-MERGED from [com.google.android.gms:play-services-tasks:17.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/9bf484f092d689036075aaf406ceef14/jetified-play-services-tasks-17.1.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/ffd1018a296a4bae848f19876f37e1b5/jetified-play-services-measurement-base-17.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.3.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/bb49a74f82b66b39d08fcd00d0a87792/jetified-play-services-basement-17.3.0/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/a8f645244c4ea68144e560bf7b44f41f/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/5cc7e1ae2ab40d4202b4859e9ee713c2/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.browser:browser:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/2604bddbedbcf439918d0b2d8f5f894a/browser-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/3e88c818d8845f0c8b5d978a027b903d/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/11ccaa796303a07963cbb195a299b82a/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/434293c9723ef914af0a5e798a7ef234/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/7d3ce91d39e1db96defb06050107cbb1/transition-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/07b1d3c7e0a3a6f2b01d1cfa843518ac/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/786fd518b6a66f2d1b4ae8bd223a5f5a/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/c7f78ec61a5ef23289e3d53684a7df3a/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/63a1ff4bd81f5b502749f2a69b90faca/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/4bb5fae0eb5a9d53bfdc7b2a56bce9ab/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/a9f6ce262c4d5d27cc5840f789bbf2c2/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/58fa2855d40afd7bb1a18c2d37279759/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/05c09e9564930a5922947956ed883ea3/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/8ef8bec5c6eba6c313862f91ad581089/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/6176144b0951a69e47a05541c644a68a/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.3.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/6783e41bc60e9cded511aa8c46f836d3/core-1.3.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/caff677893885fed83fba7f992339855/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/c20c3735c2b71dbc2da147e721c23145/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/513c1a35239aa3f24c9aea550d660674/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.databinding:viewbinding:4.1.2] /Users/ringer/.gradle/caches/transforms-2/files-2.1/db1a7ea35b0413764b14cb8ac33b4d90/jetified-viewbinding-4.1.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/2294a220dad06e8bfe05c0a419539940/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/521b0777ab17aa04bc208b77dc090642/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/89cda1a3fd3d127ec04dc339bbdbbd87/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/ba2bd5cb1cd0b6756ca1a0c86e8f01a0/jetified-gifdecoder-4.11.0/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/2779e8715d6011ffc1b1d78f06419883/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/7076b89b10439ee44f6468dff8260339/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/fd55789bb2c923a3cc8c050030bcc78a/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/8629806383735552b7396fb2c72352ec/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/db69ad6b87881226094599d228cdd3f7/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/ccb7804f966ed8ee75bec2959fe2ed5c/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/8739e46519e40c0f1ad663c01f437330/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/f4e57f7441f2823f31b118d2999be28b/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/9600a14ddc64dd349d9310be7eae0f7f/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/376fed9e2d8a8aa1102ab450a566c38f/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-ads-base:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/1410a122e39dd062c1411e7ba580a707/jetified-play-services-ads-base-19.4.0/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:2:1-45:12
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-45:12
+MERGED from [androidx.databinding:databinding-adapters:7.4.1] /Users/ringer/.gradle/caches/transforms-3/3e400de7ebea0d1ee727bec22332b0dd/transformed/databinding-adapters-7.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:databinding-runtime:7.4.1] /Users/ringer/.gradle/caches/transforms-3/19070e7defc5447c313ccfd3890a593f/transformed/databinding-runtime-7.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/ringer/.gradle/caches/transforms-3/12a10ab6d6cd9518ddb159d1a82fcfd5/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/ringer/.gradle/caches/transforms-3/af310258920cf8caaadfccc0263d151f/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ringer/.gradle/caches/transforms-3/18628c4ebf8fdb8f0f7a4ee7f147ef2c/transformed/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/ringer/.gradle/caches/transforms-3/376de5057ad0f3146cfb9fd3abaecfcf/transformed/jetified-glide-4.11.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ringer/.gradle/caches/transforms-3/a371e795da27431ae7be14243d6d6644/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads:19.4.0] /Users/ringer/.gradle/caches/transforms-3/ae06c9178ddfc0b4cdf8fff11ac3aeb6/transformed/jetified-play-services-ads-19.4.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/ringer/.gradle/caches/transforms-3/a8d20d01a15b1553173d6ee404805d80/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-gass:19.4.0] /Users/ringer/.gradle/caches/transforms-3/f39471c3adbf3f5c07a6938867662132/transformed/jetified-play-services-gass-19.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ringer/.gradle/caches/transforms-3/8f63f5b54faa8eb68cb427a6f41e45b9/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-3/3a69bf076fbd66130a74f7bc4a4b76ba/transformed/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-tasks:17.1.0] /Users/ringer/.gradle/caches/transforms-3/931e70bb15e5e9e4017494104d92f11c/transformed/jetified-play-services-tasks-17.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/ringer/.gradle/caches/transforms-3/fcca48811fbbdb4c0aac84811bf5a0de/transformed/jetified-play-services-measurement-base-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.3.0] /Users/ringer/.gradle/caches/transforms-3/b7222a758a0531046d13ae63204d534c/transformed/jetified-play-services-basement-17.3.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/ringer/.gradle/caches/transforms-3/f435fd5de94f958b4c53d47201968a19/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/ringer/.gradle/caches/transforms-3/11ea3a23faeb8da8536e5a3ed0434b03/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/ringer/.gradle/caches/transforms-3/e5410ba67f471bbf36a932fe476aa08b/transformed/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ringer/.gradle/caches/transforms-3/515a831aea8b59355f8c01d10899c52b/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ringer/.gradle/caches/transforms-3/ce1e143fbf6a788a5607614ef07e4838/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ringer/.gradle/caches/transforms-3/dc97d6ce0b4fe9761cb7382a11c15f82/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/ringer/.gradle/caches/transforms-3/4bd8bb5404a5f4206559c2fa7216ad58/transformed/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ringer/.gradle/caches/transforms-3/ffa6ff59be780381963989a9f5cf67d3/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/ringer/.gradle/caches/transforms-3/85f86d78fcd14a3f534bf898212a06d9/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/ringer/.gradle/caches/transforms-3/274159b56b7d3cb450d75fca9706c1ea/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ringer/.gradle/caches/transforms-3/dcab2ccd2afeb68d5dbad6d576d2d43c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ringer/.gradle/caches/transforms-3/85fd1d3c9f702ad2a1060334e8ba52fe/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ringer/.gradle/caches/transforms-3/cf2d9462f68b160079d2c58bb5765b2c/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ringer/.gradle/caches/transforms-3/25c54dbd1d6c260a9555bf9b1bea2c0e/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/ringer/.gradle/caches/transforms-3/707124f09255db0449f16e3157a975ce/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ringer/.gradle/caches/transforms-3/16ae93db70f263405d59490c2a6b20cc/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ringer/.gradle/caches/transforms-3/e9005c5d91b82b121ada00270514f19d/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.0] /Users/ringer/.gradle/caches/transforms-3/50a2ecdfc6980573738ae0c165ccf219/transformed/core-1.3.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/9eb4f3ed486f708cde679e430c68c677/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/ringer/.gradle/caches/transforms-3/36e294f69608da903283f1aa54ee5ab5/transformed/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/ringer/.gradle/caches/transforms-3/c808e21cb44ba80f74225779dde570af/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ringer/.gradle/caches/transforms-3/1fe61287b9269a3ba682bca5b39ca7de/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.databinding:viewbinding:7.4.1] /Users/ringer/.gradle/caches/transforms-3/48764519a644d2979f9562db0f162995/transformed/jetified-viewbinding-7.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ringer/.gradle/caches/transforms-3/92dbb525ace016fe3f791d4316ca6187/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ringer/.gradle/caches/transforms-3/ee0027bc9d5788a8013686284e27f76a/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/ringer/.gradle/caches/transforms-3/f1a9bd606a33e4adca86283b81990f02/transformed/jetified-gifdecoder-4.11.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/ringer/.gradle/caches/transforms-3/c3a1ab20ac714d105a420e4de11de0ab/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ringer/.gradle/caches/transforms-3/bfacf2ee5ac7cac2e44ce4e891127432/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ringer/.gradle/caches/transforms-3/4d1f2431f528cf60c503cb0d54814881/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ringer/.gradle/caches/transforms-3/65503080a3128e0eb6820fb4620289f6/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ringer/.gradle/caches/transforms-3/7450bb8f5f92bd4221265db8ee10ff96/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ringer/.gradle/caches/transforms-3/e6feb0a9bf1c6632f275ad2bd5042b74/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ringer/.gradle/caches/transforms-3/768ce08253bf00b423db5e4145f1008b/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ringer/.gradle/caches/transforms-3/ba26b032571efe3047e393aed466c638/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/ringer/.gradle/caches/transforms-3/8d866ddde2cdf8a7053c54c56694d22e/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ringer/.gradle/caches/transforms-3/f3b2285cc1a2406cfaeb83aacd07146d/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-base:19.4.0] /Users/ringer/.gradle/caches/transforms-3/cabd16222fd3029cf36ed734c6023e2d/transformed/jetified-play-services-ads-base-19.4.0/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-45:12
 	package
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:4:5-42
-		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-45:12
+		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:2:1-45:12
-		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-45:12
+		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:3:5-51
 	xmlns:android
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:5:5-28
-		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:7:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/59980577ed93ed0263b8b12100d33616/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/59980577ed93ed0263b8b12100d33616/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:23:5-67
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-3/3a69bf076fbd66130a74f7bc4a4b76ba/transformed/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-3/3a69bf076fbd66130a74f7bc4a4b76ba/transformed/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:7:22-64
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:8:5-78
-MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/59980577ed93ed0263b8b12100d33616/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/59980577ed93ed0263b8b12100d33616/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:24:5-79
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:7:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-3/3a69bf076fbd66130a74f7bc4a4b76ba/transformed/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-3/3a69bf076fbd66130a74f7bc4a4b76ba/transformed/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:8:22-76
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:7:22-76
 application
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:11:5-43:19
-MERGED from [com.google.android.material:material:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/226f186038f7a70d4cb2c9c82e2e5bb2/material-1.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/226f186038f7a70d4cb2c9c82e2e5bb2/material-1.0.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ringer/.gradle/caches/transforms-2/files-2.1/4ba294d4ccbb21d2f09bd452a6586169/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ringer/.gradle/caches/transforms-2/files-2.1/4ba294d4ccbb21d2f09bd452a6586169/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/7521e7a15abf8fbb173831b25185522d/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/7521e7a15abf8fbb173831b25185522d/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/4dfd7f91d73c3d799f13c10d260420ac/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/4dfd7f91d73c3d799f13c10d260420ac/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-gass:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/f49fdf8b77bb78851dffdd7ab2bf3e3e/jetified-play-services-gass-19.4.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-gass:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/f49fdf8b77bb78851dffdd7ab2bf3e3e/jetified-play-services-gass-19.4.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/6613f04db4e771f610ce4803144c2e22/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/6613f04db4e771f610ce4803144c2e22/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:26:5-45:19
-MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:26:5-45:19
-MERGED from [com.google.android.gms:play-services-tasks:17.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/9bf484f092d689036075aaf406ceef14/jetified-play-services-tasks-17.1.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/9bf484f092d689036075aaf406ceef14/jetified-play-services-tasks-17.1.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/ffd1018a296a4bae848f19876f37e1b5/jetified-play-services-measurement-base-17.2.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/ffd1018a296a4bae848f19876f37e1b5/jetified-play-services-measurement-base-17.2.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.3.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/bb49a74f82b66b39d08fcd00d0a87792/jetified-play-services-basement-17.3.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.3.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/bb49a74f82b66b39d08fcd00d0a87792/jetified-play-services-basement-17.3.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.3.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/6783e41bc60e9cded511aa8c46f836d3/core-1.3.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.3.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/6783e41bc60e9cded511aa8c46f836d3/core-1.3.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/caff677893885fed83fba7f992339855/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/caff677893885fed83fba7f992339855/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/2294a220dad06e8bfe05c0a419539940/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/2294a220dad06e8bfe05c0a419539940/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/ba2bd5cb1cd0b6756ca1a0c86e8f01a0/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/ba2bd5cb1cd0b6756ca1a0c86e8f01a0/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-ads-base:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/1410a122e39dd062c1411e7ba580a707/jetified-play-services-ads-base-19.4.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-ads-base:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/1410a122e39dd062c1411e7ba580a707/jetified-play-services-ads-base-19.4.0/AndroidManifest.xml:7:5-20
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:10:5-43:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/ringer/.gradle/caches/transforms-3/12a10ab6d6cd9518ddb159d1a82fcfd5/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/ringer/.gradle/caches/transforms-3/12a10ab6d6cd9518ddb159d1a82fcfd5/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ringer/.gradle/caches/transforms-3/18628c4ebf8fdb8f0f7a4ee7f147ef2c/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ringer/.gradle/caches/transforms-3/18628c4ebf8fdb8f0f7a4ee7f147ef2c/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/ringer/.gradle/caches/transforms-3/376de5057ad0f3146cfb9fd3abaecfcf/transformed/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/ringer/.gradle/caches/transforms-3/376de5057ad0f3146cfb9fd3abaecfcf/transformed/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/ringer/.gradle/caches/transforms-3/a8d20d01a15b1553173d6ee404805d80/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/ringer/.gradle/caches/transforms-3/a8d20d01a15b1553173d6ee404805d80/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-gass:19.4.0] /Users/ringer/.gradle/caches/transforms-3/f39471c3adbf3f5c07a6938867662132/transformed/jetified-play-services-gass-19.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:19.4.0] /Users/ringer/.gradle/caches/transforms-3/f39471c3adbf3f5c07a6938867662132/transformed/jetified-play-services-gass-19.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ringer/.gradle/caches/transforms-3/8f63f5b54faa8eb68cb427a6f41e45b9/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ringer/.gradle/caches/transforms-3/8f63f5b54faa8eb68cb427a6f41e45b9/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:26:5-45:19
+MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:26:5-45:19
+MERGED from [com.google.android.gms:play-services-tasks:17.1.0] /Users/ringer/.gradle/caches/transforms-3/931e70bb15e5e9e4017494104d92f11c/transformed/jetified-play-services-tasks-17.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.1.0] /Users/ringer/.gradle/caches/transforms-3/931e70bb15e5e9e4017494104d92f11c/transformed/jetified-play-services-tasks-17.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/ringer/.gradle/caches/transforms-3/fcca48811fbbdb4c0aac84811bf5a0de/transformed/jetified-play-services-measurement-base-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/ringer/.gradle/caches/transforms-3/fcca48811fbbdb4c0aac84811bf5a0de/transformed/jetified-play-services-measurement-base-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.3.0] /Users/ringer/.gradle/caches/transforms-3/b7222a758a0531046d13ae63204d534c/transformed/jetified-play-services-basement-17.3.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.3.0] /Users/ringer/.gradle/caches/transforms-3/b7222a758a0531046d13ae63204d534c/transformed/jetified-play-services-basement-17.3.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.0] /Users/ringer/.gradle/caches/transforms-3/50a2ecdfc6980573738ae0c165ccf219/transformed/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] /Users/ringer/.gradle/caches/transforms-3/50a2ecdfc6980573738ae0c165ccf219/transformed/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/9eb4f3ed486f708cde679e430c68c677/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/9eb4f3ed486f708cde679e430c68c677/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ringer/.gradle/caches/transforms-3/1fe61287b9269a3ba682bca5b39ca7de/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ringer/.gradle/caches/transforms-3/1fe61287b9269a3ba682bca5b39ca7de/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/ringer/.gradle/caches/transforms-3/f1a9bd606a33e4adca86283b81990f02/transformed/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/ringer/.gradle/caches/transforms-3/f1a9bd606a33e4adca86283b81990f02/transformed/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:19.4.0] /Users/ringer/.gradle/caches/transforms-3/cabd16222fd3029cf36ed734c6023e2d/transformed/jetified-play-services-ads-base-19.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:19.4.0] /Users/ringer/.gradle/caches/transforms-3/cabd16222fd3029cf36ed734c6023e2d/transformed/jetified-play-services-ads-base-19.4.0/AndroidManifest.xml:7:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.3.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/6783e41bc60e9cded511aa8c46f836d3/core-1.3.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.3.0] /Users/ringer/.gradle/caches/transforms-3/50a2ecdfc6980573738ae0c165ccf219/transformed/core-1.3.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:15:9-54
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:13:9-43
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:17:9-40
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:16:9-40
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:19:9-21:69
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:18:9-20:69
 	android:value
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:21:13-67
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:20:13-67
 	android:name
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:20:13-69
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:19:13-69
 activity#tanglemaster3D.tangle.guide.view.MainActivity
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:25:9-35:20
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:24:9-35:20
 	android:label
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:27:13-45
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:26:13-45
+	android:exported
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:28:13-36
 	tools:ignore
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:29:13-42
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:29:13-42
 	android:theme
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:28:13-56
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:27:13-56
 	android:name
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:26:13-73
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:25:13-73
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:30:13-34:29
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:31:17-69
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:31:25-66
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:33:17-77
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:33:27-74
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:33:27-74
 activity#tanglemaster3D.tangle.guide.view.WebViewActivity
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:36:9-84
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:36:9-84
 	android:name
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:36:19-82
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:36:19-82
 activity#tanglemaster3D.tangle.guide.view.WebViewActivity2
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:37:9-85
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:37:9-85
 	android:name
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:37:19-83
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:37:19-83
 activity#tanglemaster3D.tangle.guide.view.WebViewActivity3
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:38:9-85
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:38:9-85
 	android:name
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:38:19-83
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:38:19-83
 activity#tanglemaster3D.tangle.guide.view.WebViewActivity4
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:39:9-85
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:39:9-85
 	android:name
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:39:19-83
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:39:19-83
 activity#tanglemaster3D.tangle.guide.view.Support
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:40:9-76
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:40:9-76
 	android:name
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:40:19-74
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:40:19-74
 activity#tanglemaster3D.tangle.guide.view.Appopen
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:41:9-42:45
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:41:9-42:58
 	tools:ignore
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:42:13-42
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:42:13-55
 	android:name
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml:41:19-74
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:41:19-74
 uses-sdk
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml
-MERGED from [androidx.databinding:databinding-adapters:4.1.2] /Users/ringer/.gradle/caches/transforms-2/files-2.1/7768ea534c93d4ccd222b122386218d2/databinding-adapters-4.1.2/AndroidManifest.xml:22:5-44
-MERGED from [androidx.databinding:databinding-adapters:4.1.2] /Users/ringer/.gradle/caches/transforms-2/files-2.1/7768ea534c93d4ccd222b122386218d2/databinding-adapters-4.1.2/AndroidManifest.xml:22:5-44
-MERGED from [androidx.databinding:databinding-runtime:4.1.2] /Users/ringer/.gradle/caches/transforms-2/files-2.1/070135ff505759722472b36a29349dfc/databinding-runtime-4.1.2/AndroidManifest.xml:22:5-44
-MERGED from [androidx.databinding:databinding-runtime:4.1.2] /Users/ringer/.gradle/caches/transforms-2/files-2.1/070135ff505759722472b36a29349dfc/databinding-runtime-4.1.2/AndroidManifest.xml:22:5-44
-MERGED from [com.google.android.material:material:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/226f186038f7a70d4cb2c9c82e2e5bb2/material-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/226f186038f7a70d4cb2c9c82e2e5bb2/material-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/32bf389d8de85727cbf065d5ae2a059f/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/32bf389d8de85727cbf065d5ae2a059f/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ringer/.gradle/caches/transforms-2/files-2.1/4ba294d4ccbb21d2f09bd452a6586169/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ringer/.gradle/caches/transforms-2/files-2.1/4ba294d4ccbb21d2f09bd452a6586169/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/7521e7a15abf8fbb173831b25185522d/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/7521e7a15abf8fbb173831b25185522d/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/ad263614364b464a5c2208dea8de1163/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/ad263614364b464a5c2208dea8de1163/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/5d9f1d7990a66d92521f65740dfab03d/jetified-play-services-ads-19.4.0/AndroidManifest.xml:21:5-23:52
-MERGED from [com.google.android.gms:play-services-ads:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/5d9f1d7990a66d92521f65740dfab03d/jetified-play-services-ads-19.4.0/AndroidManifest.xml:21:5-23:52
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/4dfd7f91d73c3d799f13c10d260420ac/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/4dfd7f91d73c3d799f13c10d260420ac/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gass:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/f49fdf8b77bb78851dffdd7ab2bf3e3e/jetified-play-services-gass-19.4.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-gass:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/f49fdf8b77bb78851dffdd7ab2bf3e3e/jetified-play-services-gass-19.4.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/6613f04db4e771f610ce4803144c2e22/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/6613f04db4e771f610ce4803144c2e22/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/59980577ed93ed0263b8b12100d33616/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/59980577ed93ed0263b8b12100d33616/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/9bf484f092d689036075aaf406ceef14/jetified-play-services-tasks-17.1.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/9bf484f092d689036075aaf406ceef14/jetified-play-services-tasks-17.1.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/ffd1018a296a4bae848f19876f37e1b5/jetified-play-services-measurement-base-17.2.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/ffd1018a296a4bae848f19876f37e1b5/jetified-play-services-measurement-base-17.2.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.3.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/bb49a74f82b66b39d08fcd00d0a87792/jetified-play-services-basement-17.3.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.3.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/bb49a74f82b66b39d08fcd00d0a87792/jetified-play-services-basement-17.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/a8f645244c4ea68144e560bf7b44f41f/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/a8f645244c4ea68144e560bf7b44f41f/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/5cc7e1ae2ab40d4202b4859e9ee713c2/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/5cc7e1ae2ab40d4202b4859e9ee713c2/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/2604bddbedbcf439918d0b2d8f5f894a/browser-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.browser:browser:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/2604bddbedbcf439918d0b2d8f5f894a/browser-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/3e88c818d8845f0c8b5d978a027b903d/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/3e88c818d8845f0c8b5d978a027b903d/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/11ccaa796303a07963cbb195a299b82a/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/11ccaa796303a07963cbb195a299b82a/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/434293c9723ef914af0a5e798a7ef234/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/434293c9723ef914af0a5e798a7ef234/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/7d3ce91d39e1db96defb06050107cbb1/transition-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/7d3ce91d39e1db96defb06050107cbb1/transition-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/07b1d3c7e0a3a6f2b01d1cfa843518ac/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/07b1d3c7e0a3a6f2b01d1cfa843518ac/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/786fd518b6a66f2d1b4ae8bd223a5f5a/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/786fd518b6a66f2d1b4ae8bd223a5f5a/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/c7f78ec61a5ef23289e3d53684a7df3a/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/c7f78ec61a5ef23289e3d53684a7df3a/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/63a1ff4bd81f5b502749f2a69b90faca/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/63a1ff4bd81f5b502749f2a69b90faca/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/4bb5fae0eb5a9d53bfdc7b2a56bce9ab/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/4bb5fae0eb5a9d53bfdc7b2a56bce9ab/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/a9f6ce262c4d5d27cc5840f789bbf2c2/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/a9f6ce262c4d5d27cc5840f789bbf2c2/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/58fa2855d40afd7bb1a18c2d37279759/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/58fa2855d40afd7bb1a18c2d37279759/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/05c09e9564930a5922947956ed883ea3/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/05c09e9564930a5922947956ed883ea3/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/8ef8bec5c6eba6c313862f91ad581089/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/8ef8bec5c6eba6c313862f91ad581089/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/6176144b0951a69e47a05541c644a68a/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/6176144b0951a69e47a05541c644a68a/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.3.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/6783e41bc60e9cded511aa8c46f836d3/core-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/6783e41bc60e9cded511aa8c46f836d3/core-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/caff677893885fed83fba7f992339855/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/caff677893885fed83fba7f992339855/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/c20c3735c2b71dbc2da147e721c23145/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/c20c3735c2b71dbc2da147e721c23145/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/513c1a35239aa3f24c9aea550d660674/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/513c1a35239aa3f24c9aea550d660674/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.databinding:viewbinding:4.1.2] /Users/ringer/.gradle/caches/transforms-2/files-2.1/db1a7ea35b0413764b14cb8ac33b4d90/jetified-viewbinding-4.1.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.databinding:viewbinding:4.1.2] /Users/ringer/.gradle/caches/transforms-2/files-2.1/db1a7ea35b0413764b14cb8ac33b4d90/jetified-viewbinding-4.1.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/2294a220dad06e8bfe05c0a419539940/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/2294a220dad06e8bfe05c0a419539940/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/521b0777ab17aa04bc208b77dc090642/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/521b0777ab17aa04bc208b77dc090642/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/89cda1a3fd3d127ec04dc339bbdbbd87/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/89cda1a3fd3d127ec04dc339bbdbbd87/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/ba2bd5cb1cd0b6756ca1a0c86e8f01a0/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/ba2bd5cb1cd0b6756ca1a0c86e8f01a0/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/2779e8715d6011ffc1b1d78f06419883/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/2779e8715d6011ffc1b1d78f06419883/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/7076b89b10439ee44f6468dff8260339/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/7076b89b10439ee44f6468dff8260339/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/fd55789bb2c923a3cc8c050030bcc78a/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/fd55789bb2c923a3cc8c050030bcc78a/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/8629806383735552b7396fb2c72352ec/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/8629806383735552b7396fb2c72352ec/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/db69ad6b87881226094599d228cdd3f7/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/db69ad6b87881226094599d228cdd3f7/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/ccb7804f966ed8ee75bec2959fe2ed5c/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/ccb7804f966ed8ee75bec2959fe2ed5c/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/8739e46519e40c0f1ad663c01f437330/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/8739e46519e40c0f1ad663c01f437330/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/f4e57f7441f2823f31b118d2999be28b/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/f4e57f7441f2823f31b118d2999be28b/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/9600a14ddc64dd349d9310be7eae0f7f/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/9600a14ddc64dd349d9310be7eae0f7f/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/376fed9e2d8a8aa1102ab450a566c38f/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/376fed9e2d8a8aa1102ab450a566c38f/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-ads-base:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/1410a122e39dd062c1411e7ba580a707/jetified-play-services-ads-base-19.4.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-ads-base:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/1410a122e39dd062c1411e7ba580a707/jetified-play-services-ads-base-19.4.0/AndroidManifest.xml:5:5-44
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:7.4.1] /Users/ringer/.gradle/caches/transforms-3/3e400de7ebea0d1ee727bec22332b0dd/transformed/databinding-adapters-7.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-adapters:7.4.1] /Users/ringer/.gradle/caches/transforms-3/3e400de7ebea0d1ee727bec22332b0dd/transformed/databinding-adapters-7.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-runtime:7.4.1] /Users/ringer/.gradle/caches/transforms-3/19070e7defc5447c313ccfd3890a593f/transformed/databinding-runtime-7.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-runtime:7.4.1] /Users/ringer/.gradle/caches/transforms-3/19070e7defc5447c313ccfd3890a593f/transformed/databinding-runtime-7.4.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/ringer/.gradle/caches/transforms-3/12a10ab6d6cd9518ddb159d1a82fcfd5/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/ringer/.gradle/caches/transforms-3/12a10ab6d6cd9518ddb159d1a82fcfd5/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/ringer/.gradle/caches/transforms-3/af310258920cf8caaadfccc0263d151f/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/ringer/.gradle/caches/transforms-3/af310258920cf8caaadfccc0263d151f/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ringer/.gradle/caches/transforms-3/18628c4ebf8fdb8f0f7a4ee7f147ef2c/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ringer/.gradle/caches/transforms-3/18628c4ebf8fdb8f0f7a4ee7f147ef2c/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/ringer/.gradle/caches/transforms-3/376de5057ad0f3146cfb9fd3abaecfcf/transformed/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/ringer/.gradle/caches/transforms-3/376de5057ad0f3146cfb9fd3abaecfcf/transformed/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ringer/.gradle/caches/transforms-3/a371e795da27431ae7be14243d6d6644/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ringer/.gradle/caches/transforms-3/a371e795da27431ae7be14243d6d6644/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:19.4.0] /Users/ringer/.gradle/caches/transforms-3/ae06c9178ddfc0b4cdf8fff11ac3aeb6/transformed/jetified-play-services-ads-19.4.0/AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:19.4.0] /Users/ringer/.gradle/caches/transforms-3/ae06c9178ddfc0b4cdf8fff11ac3aeb6/transformed/jetified-play-services-ads-19.4.0/AndroidManifest.xml:21:5-23:52
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/ringer/.gradle/caches/transforms-3/a8d20d01a15b1553173d6ee404805d80/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/ringer/.gradle/caches/transforms-3/a8d20d01a15b1553173d6ee404805d80/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:19.4.0] /Users/ringer/.gradle/caches/transforms-3/f39471c3adbf3f5c07a6938867662132/transformed/jetified-play-services-gass-19.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:19.4.0] /Users/ringer/.gradle/caches/transforms-3/f39471c3adbf3f5c07a6938867662132/transformed/jetified-play-services-gass-19.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ringer/.gradle/caches/transforms-3/8f63f5b54faa8eb68cb427a6f41e45b9/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ringer/.gradle/caches/transforms-3/8f63f5b54faa8eb68cb427a6f41e45b9/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-3/3a69bf076fbd66130a74f7bc4a4b76ba/transformed/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-3/3a69bf076fbd66130a74f7bc4a4b76ba/transformed/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.1.0] /Users/ringer/.gradle/caches/transforms-3/931e70bb15e5e9e4017494104d92f11c/transformed/jetified-play-services-tasks-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.1.0] /Users/ringer/.gradle/caches/transforms-3/931e70bb15e5e9e4017494104d92f11c/transformed/jetified-play-services-tasks-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/ringer/.gradle/caches/transforms-3/fcca48811fbbdb4c0aac84811bf5a0de/transformed/jetified-play-services-measurement-base-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/ringer/.gradle/caches/transforms-3/fcca48811fbbdb4c0aac84811bf5a0de/transformed/jetified-play-services-measurement-base-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.3.0] /Users/ringer/.gradle/caches/transforms-3/b7222a758a0531046d13ae63204d534c/transformed/jetified-play-services-basement-17.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.3.0] /Users/ringer/.gradle/caches/transforms-3/b7222a758a0531046d13ae63204d534c/transformed/jetified-play-services-basement-17.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/ringer/.gradle/caches/transforms-3/f435fd5de94f958b4c53d47201968a19/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/ringer/.gradle/caches/transforms-3/f435fd5de94f958b4c53d47201968a19/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/ringer/.gradle/caches/transforms-3/11ea3a23faeb8da8536e5a3ed0434b03/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/ringer/.gradle/caches/transforms-3/11ea3a23faeb8da8536e5a3ed0434b03/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.0.0] /Users/ringer/.gradle/caches/transforms-3/e5410ba67f471bbf36a932fe476aa08b/transformed/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/ringer/.gradle/caches/transforms-3/e5410ba67f471bbf36a932fe476aa08b/transformed/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ringer/.gradle/caches/transforms-3/515a831aea8b59355f8c01d10899c52b/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ringer/.gradle/caches/transforms-3/515a831aea8b59355f8c01d10899c52b/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ringer/.gradle/caches/transforms-3/ce1e143fbf6a788a5607614ef07e4838/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ringer/.gradle/caches/transforms-3/ce1e143fbf6a788a5607614ef07e4838/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ringer/.gradle/caches/transforms-3/dc97d6ce0b4fe9761cb7382a11c15f82/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ringer/.gradle/caches/transforms-3/dc97d6ce0b4fe9761cb7382a11c15f82/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/ringer/.gradle/caches/transforms-3/4bd8bb5404a5f4206559c2fa7216ad58/transformed/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/ringer/.gradle/caches/transforms-3/4bd8bb5404a5f4206559c2fa7216ad58/transformed/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ringer/.gradle/caches/transforms-3/ffa6ff59be780381963989a9f5cf67d3/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ringer/.gradle/caches/transforms-3/ffa6ff59be780381963989a9f5cf67d3/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ringer/.gradle/caches/transforms-3/85f86d78fcd14a3f534bf898212a06d9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ringer/.gradle/caches/transforms-3/85f86d78fcd14a3f534bf898212a06d9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/ringer/.gradle/caches/transforms-3/274159b56b7d3cb450d75fca9706c1ea/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/ringer/.gradle/caches/transforms-3/274159b56b7d3cb450d75fca9706c1ea/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ringer/.gradle/caches/transforms-3/dcab2ccd2afeb68d5dbad6d576d2d43c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ringer/.gradle/caches/transforms-3/dcab2ccd2afeb68d5dbad6d576d2d43c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ringer/.gradle/caches/transforms-3/85fd1d3c9f702ad2a1060334e8ba52fe/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ringer/.gradle/caches/transforms-3/85fd1d3c9f702ad2a1060334e8ba52fe/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ringer/.gradle/caches/transforms-3/cf2d9462f68b160079d2c58bb5765b2c/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ringer/.gradle/caches/transforms-3/cf2d9462f68b160079d2c58bb5765b2c/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ringer/.gradle/caches/transforms-3/25c54dbd1d6c260a9555bf9b1bea2c0e/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ringer/.gradle/caches/transforms-3/25c54dbd1d6c260a9555bf9b1bea2c0e/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/ringer/.gradle/caches/transforms-3/707124f09255db0449f16e3157a975ce/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/ringer/.gradle/caches/transforms-3/707124f09255db0449f16e3157a975ce/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ringer/.gradle/caches/transforms-3/16ae93db70f263405d59490c2a6b20cc/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ringer/.gradle/caches/transforms-3/16ae93db70f263405d59490c2a6b20cc/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ringer/.gradle/caches/transforms-3/e9005c5d91b82b121ada00270514f19d/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ringer/.gradle/caches/transforms-3/e9005c5d91b82b121ada00270514f19d/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.0] /Users/ringer/.gradle/caches/transforms-3/50a2ecdfc6980573738ae0c165ccf219/transformed/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /Users/ringer/.gradle/caches/transforms-3/50a2ecdfc6980573738ae0c165ccf219/transformed/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/9eb4f3ed486f708cde679e430c68c677/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/9eb4f3ed486f708cde679e430c68c677/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/ringer/.gradle/caches/transforms-3/36e294f69608da903283f1aa54ee5ab5/transformed/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/ringer/.gradle/caches/transforms-3/36e294f69608da903283f1aa54ee5ab5/transformed/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/ringer/.gradle/caches/transforms-3/c808e21cb44ba80f74225779dde570af/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/ringer/.gradle/caches/transforms-3/c808e21cb44ba80f74225779dde570af/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ringer/.gradle/caches/transforms-3/1fe61287b9269a3ba682bca5b39ca7de/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ringer/.gradle/caches/transforms-3/1fe61287b9269a3ba682bca5b39ca7de/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.4.1] /Users/ringer/.gradle/caches/transforms-3/48764519a644d2979f9562db0f162995/transformed/jetified-viewbinding-7.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:7.4.1] /Users/ringer/.gradle/caches/transforms-3/48764519a644d2979f9562db0f162995/transformed/jetified-viewbinding-7.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ringer/.gradle/caches/transforms-3/92dbb525ace016fe3f791d4316ca6187/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ringer/.gradle/caches/transforms-3/92dbb525ace016fe3f791d4316ca6187/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ringer/.gradle/caches/transforms-3/ee0027bc9d5788a8013686284e27f76a/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ringer/.gradle/caches/transforms-3/ee0027bc9d5788a8013686284e27f76a/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/ringer/.gradle/caches/transforms-3/f1a9bd606a33e4adca86283b81990f02/transformed/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/ringer/.gradle/caches/transforms-3/f1a9bd606a33e4adca86283b81990f02/transformed/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/ringer/.gradle/caches/transforms-3/c3a1ab20ac714d105a420e4de11de0ab/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/ringer/.gradle/caches/transforms-3/c3a1ab20ac714d105a420e4de11de0ab/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ringer/.gradle/caches/transforms-3/bfacf2ee5ac7cac2e44ce4e891127432/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ringer/.gradle/caches/transforms-3/bfacf2ee5ac7cac2e44ce4e891127432/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ringer/.gradle/caches/transforms-3/4d1f2431f528cf60c503cb0d54814881/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ringer/.gradle/caches/transforms-3/4d1f2431f528cf60c503cb0d54814881/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ringer/.gradle/caches/transforms-3/65503080a3128e0eb6820fb4620289f6/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ringer/.gradle/caches/transforms-3/65503080a3128e0eb6820fb4620289f6/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ringer/.gradle/caches/transforms-3/7450bb8f5f92bd4221265db8ee10ff96/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ringer/.gradle/caches/transforms-3/7450bb8f5f92bd4221265db8ee10ff96/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ringer/.gradle/caches/transforms-3/e6feb0a9bf1c6632f275ad2bd5042b74/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ringer/.gradle/caches/transforms-3/e6feb0a9bf1c6632f275ad2bd5042b74/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ringer/.gradle/caches/transforms-3/768ce08253bf00b423db5e4145f1008b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ringer/.gradle/caches/transforms-3/768ce08253bf00b423db5e4145f1008b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ringer/.gradle/caches/transforms-3/ba26b032571efe3047e393aed466c638/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ringer/.gradle/caches/transforms-3/ba26b032571efe3047e393aed466c638/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ringer/.gradle/caches/transforms-3/8d866ddde2cdf8a7053c54c56694d22e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ringer/.gradle/caches/transforms-3/8d866ddde2cdf8a7053c54c56694d22e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ringer/.gradle/caches/transforms-3/f3b2285cc1a2406cfaeb83aacd07146d/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ringer/.gradle/caches/transforms-3/f3b2285cc1a2406cfaeb83aacd07146d/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:19.4.0] /Users/ringer/.gradle/caches/transforms-3/cabd16222fd3029cf36ed734c6023e2d/transformed/jetified-play-services-ads-base-19.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:19.4.0] /Users/ringer/.gradle/caches/transforms-3/cabd16222fd3029cf36ed734c6023e2d/transformed/jetified-play-services-ads-base-19.4.0/AndroidManifest.xml:5:5-44
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.google.android.gms:play-services-ads:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/5d9f1d7990a66d92521f65740dfab03d/jetified-play-services-ads-19.4.0/AndroidManifest.xml:23:9-49
+		ADDED from [com.google.android.gms:play-services-ads:19.4.0] /Users/ringer/.gradle/caches/transforms-3/ae06c9178ddfc0b4cdf8fff11ac3aeb6/transformed/jetified-play-services-ads-19.4.0/AndroidManifest.xml:23:9-49
 	android:targetSdkVersion
-		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguidereleaseunity/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
 activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:29:9-33:64
+ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:29:9-33:64
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:32:13-37
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:32:13-37
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:31:13-122
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:31:13-122
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:33:13-61
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:33:13-61
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:30:13-65
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:30:13-65
 provider#com.google.android.gms.ads.MobileAdsInitProvider
-ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:35:9-39:39
+ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:35:9-39:39
 	android:authorities
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:37:13-73
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:37:13-73
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:38:13-37
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:38:13-37
 	android:initOrder
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:39:13-36
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:39:13-36
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:36:13-76
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:36:13-76
 service#com.google.android.gms.ads.AdService
-ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:41:9-44:40
+ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:41:9-44:40
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:43:13-35
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:43:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:44:13-37
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:44:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/45d966fe29cec18f30a122dfe4b833b2/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:42:13-64
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:42:13-64
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/59980577ed93ed0263b8b12100d33616/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:25:5-68
+ADDED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-3/3a69bf076fbd66130a74f7bc4a4b76ba/transformed/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/59980577ed93ed0263b8b12100d33616/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:25:22-65
+		ADDED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-3/3a69bf076fbd66130a74f7bc4a4b76ba/transformed/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:25:22-65
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.3.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/bb49a74f82b66b39d08fcd00d0a87792/jetified-play-services-basement-17.3.0/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.3.0] /Users/ringer/.gradle/caches/transforms-3/b7222a758a0531046d13ae63204d534c/transformed/jetified-play-services-basement-17.3.0/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.3.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/bb49a74f82b66b39d08fcd00d0a87792/jetified-play-services-basement-17.3.0/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.3.0] /Users/ringer/.gradle/caches/transforms-3/b7222a758a0531046d13ae63204d534c/transformed/jetified-play-services-basement-17.3.0/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.3.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/bb49a74f82b66b39d08fcd00d0a87792/jetified-play-services-basement-17.3.0/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.3.0] /Users/ringer/.gradle/caches/transforms-3/b7222a758a0531046d13ae63204d534c/transformed/jetified-play-services-basement-17.3.0/AndroidManifest.xml:24:13-58
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/caff677893885fed83fba7f992339855/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/9eb4f3ed486f708cde679e430c68c677/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
 	android:authorities
-		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/caff677893885fed83fba7f992339855/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/9eb4f3ed486f708cde679e430c68c677/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
 	android:multiprocess
-		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/caff677893885fed83fba7f992339855/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/9eb4f3ed486f708cde679e430c68c677/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
 	android:exported
-		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/caff677893885fed83fba7f992339855/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/9eb4f3ed486f708cde679e430c68c677/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-2/files-2.1/caff677893885fed83fba7f992339855/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/9eb4f3ed486f708cde679e430c68c677/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79

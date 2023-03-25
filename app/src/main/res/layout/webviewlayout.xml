@@ -24,7 +24,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="10dp"
             android:paddingLeft="10dp"
-            android:text="Tangle Master 3D"
+            android:text="Chat GPT"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000040" />
 
