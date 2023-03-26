@@ -3,15 +3,15 @@
 
     <data>
 
-        <import type="tanglemaster3D.tangle.guide.utils.BindingUtils" />
+        <import type="openai.chatgpt.guide.utils.BindingUtils" />
 
         <variable
             name="user"
-            type="tanglemaster3D.tangle.guide.model.User" />
+            type="openai.chatgpt.guide.model.User" />
 
         <variable
             name="handlers"
-            type="tanglemaster3D.tangle.guide.view.MainActivity.MyClickHandlers" />
+            type="openai.chatgpt.guide.view.MainActivity.MyClickHandlers" />
     </data>
 
     <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"

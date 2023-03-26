@@ -7,4 +7,6 @@
     <string name="title">Fresh Air</string>
     <string name="followers">FOLLOWERS</string>
     <string name="following">FOLLOWING</string>
+   <!-- <string name="banner_home_footer">ca-app-pub-3116019886090764/3031801738</string>-->
+    <string name="interstitial_full_screen">ca-app-pub-3940256099942544/1033173712</string>
 </resources>

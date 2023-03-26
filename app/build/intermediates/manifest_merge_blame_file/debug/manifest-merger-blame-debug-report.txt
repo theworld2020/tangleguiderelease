@@ -1,11 +1,11 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="tanglemaster3D.tangle.guide"
+3    package="openai.chatgpt.guide.view"
 4    android:versionCode="4"
 5    android:versionName="1.0.3" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="16"
+8        android:minSdkVersion="19"
 8-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="31" />
 9-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
@@ -16,133 +16,389 @@
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 12-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:7:5-78
 12-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:7:22-76
-13    <uses-permission android:name="android.permission.WAKE_LOCK" />
-13-->[com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-3/3a69bf076fbd66130a74f7bc4a4b76ba/transformed/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:25:5-68
-13-->[com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/ringer/.gradle/caches/transforms-3/3a69bf076fbd66130a74f7bc4a4b76ba/transformed/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:25:22-65
-14
-15    <application
-15-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:10:5-45:19
-16        android:allowBackup="true"
-16-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:11:9-35
-17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-17-->[androidx.core:core:1.3.0] /Users/ringer/.gradle/caches/transforms-3/50a2ecdfc6980573738ae0c165ccf219/transformed/core-1.3.0/AndroidManifest.xml:24:18-86
-18        android:debuggable="true"
-19        android:icon="@mipmap/ic_launcher"
-19-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:12:9-43
-20        android:label="@string/app_name"
-20-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:13:9-41
-21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:14:9-54
-22        android:supportsRtl="true"
-22-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:15:9-35
-23        android:testOnly="true"
-24        android:theme="@style/AppTheme" >
-24-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:16:9-40
-25
-26        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
-27        <meta-data
-27-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:18:9-20:69
-28            android:name="com.google.android.gms.ads.APPLICATION_ID"
-28-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:19:13-69
-29            android:value="ca-app-pub-9916013140756269~9527507329" />
-29-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:20:13-67
-30        <!-- Sample -->
-31        <!-- android:value="ca-app-pub-3940256099942544~3347511713"/> -->
-32
-33        <activity
-33-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:24:9-35:20
-34            android:name="tanglemaster3D.tangle.guide.view.MainActivity"
-34-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:25:13-73
-35            android:exported="true"
-35-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:28:13-36
-36            android:label="@string/app_name"
-36-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:26:13-45
-37            android:theme="@style/AppTheme.NoActionBar" >
-37-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:27:13-56
-38            <intent-filter>
-38-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:30:13-34:29
-39                <action android:name="android.intent.action.MAIN" />
-39-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:31:17-69
-39-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:31:25-66
-40
-41                <category android:name="android.intent.category.LAUNCHER" />
-41-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:33:17-77
-41-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:33:27-74
-42            </intent-filter>
-43        </activity>
-44        <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity" />
-44-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:36:9-84
-44-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:36:19-82
-45        <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity2" />
-45-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:37:9-85
-45-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:37:19-83
-46        <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity3" />
-46-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:38:9-85
-46-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:38:19-83
-47        <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity4" />
-47-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:39:9-85
-47-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:39:19-83
-48        <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity5" />
-48-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:40:9-85
-48-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:40:19-83
-49        <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity6" />
-49-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:41:9-85
-49-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:41:19-83
-50        <activity android:name="tanglemaster3D.tangle.guide.view.Support" />
-50-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:42:9-76
-50-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:42:19-74
-51        <activity android:name="tanglemaster3D.tangle.guide.view.Appopen" />
-51-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:43:9-44:58
-51-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:43:19-74
-52        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+13    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- Android package visibility setting -->
+13-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:26:5-79
+13-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:26:22-76
+14    <queries>
+14-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:32:5-48:15
+15
+16        <!-- For browser content -->
+17        <intent>
+17-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:35:9-41:18
+18            <action android:name="android.intent.action.VIEW" />
+18-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:36:13-65
+18-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:36:21-62
+19
+20            <category android:name="android.intent.category.BROWSABLE" />
+20-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:38:13-74
+20-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:38:23-71
+21
+22            <data android:scheme="https" />
+22-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:40:13-44
+22-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:40:19-41
+23        </intent>
+24        <!-- End of browser content -->
+25        <!-- For CustomTabsService -->
+26        <intent>
+26-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:44:9-46:18
+27            <action android:name="android.support.customtabs.action.CustomTabsService" />
+27-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:45:13-90
+27-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:45:21-87
+28        </intent>
+29        <!-- End of CustomTabsService -->
+30    </queries>
+31
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/ringer/.gradle/caches/transforms-3/6e601d6ca65bf1056e686dd0047b50a3/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:5-68
+32-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/ringer/.gradle/caches/transforms-3/6e601d6ca65bf1056e686dd0047b50a3/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:22-65
+33    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+33-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
+33-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
+34
+35    <application
+35-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:10:5-45:19
+36        android:allowBackup="true"
+36-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:11:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.6.0] /Users/ringer/.gradle/caches/transforms-3/12b4794b5caf29bf440d50ea7048c91a/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+39-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:12:9-43
+40        android:label="@string/app_name"
+40-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:13:9-41
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:14:9-54
+42        android:supportsRtl="true"
+42-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:15:9-35
+43        android:testOnly="true"
+44        android:theme="@style/AppTheme" >
+44-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:16:9-40
+45
+46        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+47        <meta-data
+47-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:18:9-20:69
+48            android:name="com.google.android.gms.ads.APPLICATION_ID"
+48-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:19:13-69
+49            android:value="ca-app-pub-9916013140756269~9527507329" />
+49-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:20:13-67
+50        <!-- Sample -->
+51        <!-- android:value="ca-app-pub-3940256099942544~3347511713"/> -->
+52
 53        <activity
-53-->[com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:29:9-33:64
-54            android:name="com.google.android.gms.ads.AdActivity"
-54-->[com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:30:13-65
-55            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-55-->[com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:31:13-122
-56            android:exported="false"
-56-->[com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:32:13-37
-57            android:theme="@android:style/Theme.Translucent" />
-57-->[com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:33:13-61
-58
-59        <provider
-59-->[com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:35:9-39:39
-60            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-60-->[com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:36:13-76
-61            android:authorities="tanglemaster3D.tangle.guide.mobileadsinitprovider"
-61-->[com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:37:13-73
-62            android:exported="false"
-62-->[com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:38:13-37
-63            android:initOrder="100" />
-63-->[com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:39:13-36
-64
-65        <service
-65-->[com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:41:9-44:40
-66            android:name="com.google.android.gms.ads.AdService"
-66-->[com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:42:13-64
-67            android:enabled="true"
-67-->[com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:43:13-35
-68            android:exported="false" />
-68-->[com.google.android.gms:play-services-ads-lite:19.4.0] /Users/ringer/.gradle/caches/transforms-3/3957adfbc24b68cad4de77385a6078a8/transformed/jetified-play-services-ads-lite-19.4.0/AndroidManifest.xml:44:13-37
-69
-70        <meta-data
-70-->[com.google.android.gms:play-services-basement:17.3.0] /Users/ringer/.gradle/caches/transforms-3/b7222a758a0531046d13ae63204d534c/transformed/jetified-play-services-basement-17.3.0/AndroidManifest.xml:23:9-25:69
-71            android:name="com.google.android.gms.version"
-71-->[com.google.android.gms:play-services-basement:17.3.0] /Users/ringer/.gradle/caches/transforms-3/b7222a758a0531046d13ae63204d534c/transformed/jetified-play-services-basement-17.3.0/AndroidManifest.xml:24:13-58
-72            android:value="@integer/google_play_services_version" />
-72-->[com.google.android.gms:play-services-basement:17.3.0] /Users/ringer/.gradle/caches/transforms-3/b7222a758a0531046d13ae63204d534c/transformed/jetified-play-services-basement-17.3.0/AndroidManifest.xml:25:13-66
-73
-74        <provider
-74-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/9eb4f3ed486f708cde679e430c68c677/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
-75            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-75-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/9eb4f3ed486f708cde679e430c68c677/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
-76            android:authorities="tanglemaster3D.tangle.guide.lifecycle-process"
-76-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/9eb4f3ed486f708cde679e430c68c677/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
-77            android:exported="false"
-77-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/9eb4f3ed486f708cde679e430c68c677/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
-78            android:multiprocess="true" />
-78-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/9eb4f3ed486f708cde679e430c68c677/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
-79    </application>
-80
-81</manifest>
+53-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:24:9-35:20
+54            android:name="openai.chatgpt.guide.view.MainActivity"
+54-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:25:13-66
+55            android:exported="true"
+55-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:28:13-36
+56            android:label="@string/app_name"
+56-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:26:13-45
+57            android:theme="@style/AppTheme.NoActionBar" >
+57-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:27:13-56
+58            <intent-filter>
+58-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:30:13-34:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:31:17-69
+59-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:31:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:33:17-77
+61-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:33:27-74
+62            </intent-filter>
+63        </activity>
+64        <activity android:name="openai.chatgpt.guide.view.WebViewActivity" />
+64-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:36:9-77
+64-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:36:19-75
+65        <activity android:name="openai.chatgpt.guide.view.WebViewActivity2" />
+65-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:37:9-78
+65-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:37:19-76
+66        <activity android:name="openai.chatgpt.guide.view.WebViewActivity3" />
+66-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:38:9-78
+66-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:38:19-76
+67        <activity android:name="openai.chatgpt.guide.view.WebViewActivity4" />
+67-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:39:9-78
+67-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:39:19-76
+68        <activity android:name="openai.chatgpt.guide.view.WebViewActivity5" />
+68-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:40:9-78
+68-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:40:19-76
+69        <activity android:name="openai.chatgpt.guide.view.WebViewActivity6" />
+69-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:41:9-78
+69-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:41:19-76
+70        <activity android:name="openai.chatgpt.guide.view.Support" />
+70-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:42:9-69
+70-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:42:19-67
+71        <activity android:name="openai.chatgpt.guide.view.Appopen" />
+71-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:43:9-44:58
+71-->/Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:43:19-67
+72
+73        <provider
+73-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/0804243bad5248514c5a434f41073d07/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+74            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+74-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/0804243bad5248514c5a434f41073d07/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+75            android:authorities="openai.chatgpt.guide.view.lifecycle-process"
+75-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/0804243bad5248514c5a434f41073d07/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+76            android:exported="false"
+76-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/0804243bad5248514c5a434f41073d07/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+77            android:multiprocess="true" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+77-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/ringer/.gradle/caches/transforms-3/0804243bad5248514c5a434f41073d07/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+78        <activity
+78-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:53:9-58:43
+79            android:name="com.google.android.gms.ads.AdActivity"
+79-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:54:13-65
+80            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+80-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:55:13-122
+81            android:exported="false"
+81-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:56:13-37
+82            android:theme="@android:style/Theme.Translucent" />
+82-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:57:13-61
+83
+84        <provider
+84-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:60:9-65:43
+85            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+85-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:61:13-76
+86            android:authorities="openai.chatgpt.guide.view.mobileadsinitprovider"
+86-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:62:13-73
+87            android:exported="false"
+87-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:63:13-37
+88            android:initOrder="100" />
+88-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:64:13-36
+89
+90        <service
+90-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:67:9-71:43
+91            android:name="com.google.android.gms.ads.AdService"
+91-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:68:13-64
+92            android:enabled="true"
+92-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:69:13-35
+93            android:exported="false" />
+93-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:70:13-37
+94
+95        <activity
+95-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:73:9-77:43
+96            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+96-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:74:13-82
+97            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+97-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:75:13-122
+98            android:exported="false" />
+98-->[com.google.android.gms:play-services-ads-lite:21.5.0] /Users/ringer/.gradle/caches/transforms-3/5d27d3dd6d25f71577ef44b0a882a30c/transformed/jetified-play-services-ads-lite-21.5.0/AndroidManifest.xml:76:13-37
+99        <activity
+99-->[com.google.android.gms:play-services-base:18.0.0] /Users/ringer/.gradle/caches/transforms-3/116409fabc4a757fbbac7695383c505a/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:9-22:45
+100            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+100-->[com.google.android.gms:play-services-base:18.0.0] /Users/ringer/.gradle/caches/transforms-3/116409fabc4a757fbbac7695383c505a/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:19-85
+101            android:exported="false"
+101-->[com.google.android.gms:play-services-base:18.0.0] /Users/ringer/.gradle/caches/transforms-3/116409fabc4a757fbbac7695383c505a/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:22:19-43
+102            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+102-->[com.google.android.gms:play-services-base:18.0.0] /Users/ringer/.gradle/caches/transforms-3/116409fabc4a757fbbac7695383c505a/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:21:19-78
+103
+104        <meta-data
+104-->[com.google.android.gms:play-services-basement:18.0.0] /Users/ringer/.gradle/caches/transforms-3/012bcd816ec95d1808dfe2e9ce2ff0ec/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+105            android:name="com.google.android.gms.version"
+105-->[com.google.android.gms:play-services-basement:18.0.0] /Users/ringer/.gradle/caches/transforms-3/012bcd816ec95d1808dfe2e9ce2ff0ec/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+106            android:value="@integer/google_play_services_version" />
+106-->[com.google.android.gms:play-services-basement:18.0.0] /Users/ringer/.gradle/caches/transforms-3/012bcd816ec95d1808dfe2e9ce2ff0ec/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+107
+108        <provider
+108-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+109            android:name="androidx.startup.InitializationProvider"
+109-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
+110            android:authorities="openai.chatgpt.guide.view.androidx-startup"
+110-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
+111            android:exported="false" >
+111-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:34:13-37
+112            <meta-data
+112-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+113                android:name="androidx.work.WorkManagerInitializer"
+113-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+114                android:value="androidx.startup" />
+114-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+115        </provider>
+116
+117        <service
+117-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+118            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+118-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+119            android:directBootAware="false"
+119-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+120            android:enabled="@bool/enable_system_alarm_service_default"
+120-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+121            android:exported="false" />
+121-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+122        <service
+122-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+123            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+123-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+124            android:directBootAware="false"
+124-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+125            android:enabled="@bool/enable_system_job_service_default"
+125-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+126            android:exported="true"
+126-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+127            android:permission="android.permission.BIND_JOB_SERVICE" />
+127-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+128        <service
+128-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+129            android:name="androidx.work.impl.foreground.SystemForegroundService"
+129-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+130            android:directBootAware="false"
+130-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+131            android:enabled="@bool/enable_system_foreground_service_default"
+131-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+132            android:exported="false" />
+132-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+133
+134        <receiver
+134-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+135            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+135-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+136            android:directBootAware="false"
+136-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+137            android:enabled="true"
+137-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+138            android:exported="false" />
+138-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+139        <receiver
+139-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+140            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+140-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+141            android:directBootAware="false"
+141-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+142            android:enabled="false"
+142-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+143            android:exported="false" >
+143-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+144            <intent-filter>
+144-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+145                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+145-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+145-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+146                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+146-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+146-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+147            </intent-filter>
+148        </receiver>
+149        <receiver
+149-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+150            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+150-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+151            android:directBootAware="false"
+151-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+152            android:enabled="false"
+152-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+153            android:exported="false" >
+153-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+154            <intent-filter>
+154-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+155                <action android:name="android.intent.action.BATTERY_OKAY" />
+155-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+155-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+156                <action android:name="android.intent.action.BATTERY_LOW" />
+156-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+156-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+157            </intent-filter>
+158        </receiver>
+159        <receiver
+159-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+160            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+160-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+161            android:directBootAware="false"
+161-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+162            android:enabled="false"
+162-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+163            android:exported="false" >
+163-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+164            <intent-filter>
+164-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+165                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+165-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+165-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+166                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+166-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+166-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+167            </intent-filter>
+168        </receiver>
+169        <receiver
+169-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+170            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+170-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+171            android:directBootAware="false"
+171-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+172            android:enabled="false"
+172-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+173            android:exported="false" >
+173-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+174            <intent-filter>
+174-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+175                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+175-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+175-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+176            </intent-filter>
+177        </receiver>
+178        <receiver
+178-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+179            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+179-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+180            android:directBootAware="false"
+180-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+181            android:enabled="false"
+181-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+182            android:exported="false" >
+182-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+183            <intent-filter>
+183-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+184                <action android:name="android.intent.action.BOOT_COMPLETED" />
+184-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:17-79
+184-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:25-76
+185                <action android:name="android.intent.action.TIME_SET" />
+185-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+185-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+186                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+186-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+186-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+187            </intent-filter>
+188        </receiver>
+189        <receiver
+189-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+190            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+190-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+191            android:directBootAware="false"
+191-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+192            android:enabled="@bool/enable_system_alarm_service_default"
+192-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+193            android:exported="false" >
+193-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+194            <intent-filter>
+194-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+195                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+195-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+195-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+196            </intent-filter>
+197        </receiver>
+198        <receiver
+198-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+199            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+199-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+200            android:directBootAware="false"
+200-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+201            android:enabled="true"
+201-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+202            android:exported="true"
+202-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+203            android:permission="android.permission.DUMP" >
+203-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+204            <intent-filter>
+204-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+205                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+205-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+205-->[androidx.work:work-runtime:2.7.0] /Users/ringer/.gradle/caches/transforms-3/3676a8f5802c9e82342e2c03fb5e2e99/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+206            </intent-filter>
+207        </receiver>
+208
+209        <service
+209-->[androidx.room:room-runtime:2.2.5] /Users/ringer/.gradle/caches/transforms-3/47a31a6953c4c69198e03b31b62e2496/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+210            android:name="androidx.room.MultiInstanceInvalidationService"
+210-->[androidx.room:room-runtime:2.2.5] /Users/ringer/.gradle/caches/transforms-3/47a31a6953c4c69198e03b31b62e2496/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+211            android:directBootAware="true"
+211-->[androidx.room:room-runtime:2.2.5] /Users/ringer/.gradle/caches/transforms-3/47a31a6953c4c69198e03b31b62e2496/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+212            android:exported="false" />
+212-->[androidx.room:room-runtime:2.2.5] /Users/ringer/.gradle/caches/transforms-3/47a31a6953c4c69198e03b31b62e2496/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+213    </application>
+214
+215</manifest>

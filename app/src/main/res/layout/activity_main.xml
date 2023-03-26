@@ -5,7 +5,7 @@
 
         <variable
             name="user"
-            type="tanglemaster3D.tangle.guide.model.User" />
+            type="openai.chatgpt.guide.model.User" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:app="http://schemas.android.com/apk/res-auto"

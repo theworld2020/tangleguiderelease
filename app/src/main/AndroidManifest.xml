@@ -22,7 +22,7 @@
             <!--android:value="ca-app-pub-3940256099942544~3347511713"/>-->
 
         <activity
-            android:name="tanglemaster3D.tangle.guide.view.MainActivity"
+            android:name="openai.chatgpt.guide.view.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"
             android:exported="true"
@@ -33,14 +33,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity"/>
-        <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity2"/>
-        <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity3"/>
-        <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity4"/>
-        <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity5"/>
-        <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity6"/>
-        <activity android:name="tanglemaster3D.tangle.guide.view.Support"/>
-        <activity android:name="tanglemaster3D.tangle.guide.view.Appopen"
+        <activity android:name="openai.chatgpt.guide.view.WebViewActivity"/>
+        <activity android:name="openai.chatgpt.guide.view.WebViewActivity2"/>
+        <activity android:name="openai.chatgpt.guide.view.WebViewActivity3"/>
+        <activity android:name="openai.chatgpt.guide.view.WebViewActivity4"/>
+        <activity android:name="openai.chatgpt.guide.view.WebViewActivity5"/>
+        <activity android:name="openai.chatgpt.guide.view.WebViewActivity6"/>
+        <activity android:name="openai.chatgpt.guide.view.Support"/>
+        <activity android:name="openai.chatgpt.guide.view.Appopen"
             tools:ignore="Instantiatable,MissingClass" />
     </application>
 

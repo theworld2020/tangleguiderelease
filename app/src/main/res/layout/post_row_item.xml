@@ -5,7 +5,7 @@
 
         <variable
             name="post"
-            type="tanglemaster3D.tangle.guide.model.Post" />
+            type="openai.chatgpt.guide.model.Post" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
