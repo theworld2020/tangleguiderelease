@@ -45,6 +45,8 @@
         <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity2" />
         <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity3" />
         <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity4" />
+        <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity5" />
+        <activity android:name="tanglemaster3D.tangle.guide.view.WebViewActivity6" />
         <activity android:name="tanglemaster3D.tangle.guide.view.Support" />
         <activity android:name="tanglemaster3D.tangle.guide.view.Appopen" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->

@@ -70,7 +70,7 @@ public class WebViewActivity extends AppCompatActivity {
 		wb.getSettings().setLoadsImagesAutomatically(true);
 		/*String folderPath = "file:android_asset/";
 		Toast.makeText(getApplicationContext(), "here " + folderPath, Toast.LENGTH_SHORT).show();*/
-		wb.loadUrl("file:///android_asset/tangle/test.html");
+		wb.loadUrl("file:///android_asset/tangle/History.html");
 
 	}
 

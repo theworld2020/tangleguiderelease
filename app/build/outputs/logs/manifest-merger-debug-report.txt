@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-45:12
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-47:12
 MERGED from [androidx.databinding:databinding-adapters:7.4.1] /Users/ringer/.gradle/caches/transforms-3/3e400de7ebea0d1ee727bec22332b0dd/transformed/databinding-adapters-7.4.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:7.4.1] /Users/ringer/.gradle/caches/transforms-3/19070e7defc5447c313ccfd3890a593f/transformed/databinding-runtime-7.4.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.0.0] /Users/ringer/.gradle/caches/transforms-3/12a10ab6d6cd9518ddb159d1a82fcfd5/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -57,16 +57,16 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/ringer/.gradle/caches/transforms-3/8d866ddde2cdf8a7053c54c56694d22e/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ringer/.gradle/caches/transforms-3/f3b2285cc1a2406cfaeb83aacd07146d/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads-base:19.4.0] /Users/ringer/.gradle/caches/transforms-3/cabd16222fd3029cf36ed734c6023e2d/transformed/jetified-play-services-ads-base-19.4.0/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-47:12
 	package
 		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-45:12
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-47:12
 		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-45:12
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-47:12
 		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:3:5-51
@@ -93,7 +93,7 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /U
 	android:name
 		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:7:22-76
 application
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:10:5-43:19
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:10:5-45:19
 MERGED from [com.google.android.material:material:1.0.0] /Users/ringer/.gradle/caches/transforms-3/12a10ab6d6cd9518ddb159d1a82fcfd5/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /Users/ringer/.gradle/caches/transforms-3/12a10ab6d6cd9518ddb159d1a82fcfd5/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ringer/.gradle/caches/transforms-3/18628c4ebf8fdb8f0f7a4ee7f147ef2c/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
@@ -182,16 +182,24 @@ activity#tanglemaster3D.tangle.guide.view.WebViewActivity4
 ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:39:9-85
 	android:name
 		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:39:19-83
+activity#tanglemaster3D.tangle.guide.view.WebViewActivity5
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:40:9-85
+	android:name
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:40:19-83
+activity#tanglemaster3D.tangle.guide.view.WebViewActivity6
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:41:9-85
+	android:name
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:41:19-83
 activity#tanglemaster3D.tangle.guide.view.Support
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:40:9-76
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:42:9-76
 	android:name
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:40:19-74
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:42:19-74
 activity#tanglemaster3D.tangle.guide.view.Appopen
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:41:9-42:58
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:43:9-44:58
 	tools:ignore
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:42:13-55
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:44:13-55
 	android:name
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:41:19-74
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:43:19-74
 uses-sdk
 INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml

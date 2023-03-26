@@ -84,7 +84,8 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
         user = new User();
         user.setName("Fresh Air Apps");
         user.setEmail("david@natgeo.com");
-        user.setProfileImage("file:///android_assets/tangle/intro.jpg");
+        //user.setProfileImage("file:///android_assets/tangle/profile.jpg");
+        user.setProfileImage("https://i.postimg.cc/63zp9SVB/profile.png");
         user.setAbout("Presents");
 
 
@@ -107,44 +108,31 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
         for (int i = 0; i < 7; i++) {
             Post post = new Post();
             if (i == 1) {
-                post.setImageUrl("https://i.postimg.cc/3JFzByCm/1.jpg");
+                post.setImageUrl("https://i.postimg.cc/Z0kdt2FV/history.jpg");
                 posts.add(post);
             }
             if (i == 2) {
-                post.setImageUrl("https://i.postimg.cc/Y9SSrKry/2.jpg");
+                post.setImageUrl("https://i.postimg.cc/7hjgPfD1/how.jpg");
                 posts.add(post);
             }
             if (i == 3) {
-                post.setImageUrl("https://i.postimg.cc/zG1XLRDh/4.jpg");
+                post.setImageUrl("https://i.postimg.cc/QM6SGNBm/why.jpg");
                 posts.add(post);
             }
             if (i == 4) {
-                post.setImageUrl("https://i.postimg.cc/3JFzByCm/1.jpg");
+                post.setImageUrl("https://i.postimg.cc/nhbv6j3p/feature.jpg");
                 posts.add(post);
             }
             if (i == 5) {
-                post.setImageUrl("https://i.postimg.cc/Y9SSrKry/2.jpg");
+                post.setImageUrl("https://i.postimg.cc/SRYMPk8n/future.jpg");
                 posts.add(post);
             }
             if(i==6) {
-                post.setImageUrl("https://i.postimg.cc/zG1XLRDh/4.jpg");
+                post.setImageUrl("https://i.postimg.cc/Gp3z5Tp9/limit.jpg");
                 posts.add(post);
             }
         }
         return posts;
-
-        /*post.setImageUrl("https://i.postimg.cc/3JFzByCm/1.jpg");
-        posts.add(post);
-        return posts;
-        post.setImageUrl("https://i.postimg.cc/Y9SSrKry/2.jpg");
-        posts.add(post);
-        return posts;*/
-       // post.setImageUrl("https://drive.google.com/uc?export=view&id=15_BwcH75CUUexSpWs1wP9B_Vk_60_io8");
-
-        //posts.add(post);
-       /*post.setImageUrl("https://i.postimg.cc/zG1XLRDh/4.jpg");
-       posts.add(post);*/
-
     }
 
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
@@ -152,34 +140,37 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
     public void onPostClicked(Post post) {
 
         String url= post.getImageUrl();
-            if (Objects.equals(url, "https://i.postimg.cc/zG1XLRDh/4.jpg"))
+            if (Objects.equals(url, "https://i.postimg.cc/Z0kdt2FV/history.jpg"))
             {
                 Intent intent = new Intent(this, WebViewActivity.class);
                 startActivity(intent);
             }
-            else if (Objects.equals(url, "https://i.postimg.cc/3JFzByCm/1.jpg"))
+            else if (Objects.equals(url, "https://i.postimg.cc/7hjgPfD1/how.jpg"))
             {
                 Intent intent = new Intent(this, WebViewActivity2.class);
                 startActivity(intent);
             }
 
-            else if (Objects.equals(url, "https://i.postimg.cc/Y9SSrKry/2.jpg"))
+            else if (Objects.equals(url, "https://i.postimg.cc/QM6SGNBm/why.jpg"))
             {
                 Intent intent = new Intent(this, WebViewActivity3.class);
                 startActivity(intent);
             }
-            else if (Objects.equals(url, "https://i.postimg.cc/zG1XLRDh/4.jpg"))
+            else if (Objects.equals(url, "https://i.postimg.cc/nhbv6j3p/feature.jpg"))
             {
                 Intent intent = new Intent(this, WebViewActivity4.class);
                 startActivity(intent);
             }
-            else if (Objects.equals(url, "https://i.postimg.cc/Y0GqF6m6/3.jpg"))
+            else if (Objects.equals(url, "https://i.postimg.cc/SRYMPk8n/future.jpg"))
             {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" +getPackageName())));
+                Intent intent = new Intent(this, WebViewActivity5.class);
+                startActivity(intent);
+              //  startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" +getPackageName())));
             }
-            else if (Objects.equals(url, "https://i.postimg.cc/zG1XLRDh/4.jpg"))
+            else if (Objects.equals(url, "https://i.postimg.cc/Gp3z5Tp9/limit.jpg"))
             {
-                Intent intent = new Intent(this, Support.class);
+                Intent intent = new Intent(this, WebViewActivity6.class);
+                //Intent intent = new Intent(this, Support.class);
                 startActivity(intent);
             }
     }
