@@ -16,6 +16,9 @@ import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import java.lang.reflect.Method;
 
 
@@ -24,11 +27,15 @@ public class WebViewActivity5 extends AppCompatActivity {
 	boolean pageLoaded = false;
 	EditText edit;
 	WebView wb;
-
+	private AdView mAdView;
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.webviewlayout);
+		mAdView = (AdView) findViewById(R.id.adView1);
+		AdRequest adRequest = new AdRequest.Builder()
+				.build();
+		mAdView.loadAd(adRequest);
 		if (Utils.isNetworkAvailable(WebViewActivity5.this)) {
 
 //			showAds();
@@ -81,7 +88,9 @@ public class WebViewActivity5 extends AppCompatActivity {
 		super.onDestroy();
 		wb = null;
 		edit = null;
-
+		if (mAdView != null) {
+			mAdView.destroy();
+		}
 	}
 
 	public void search(View v) {
@@ -111,6 +120,21 @@ public class WebViewActivity5 extends AppCompatActivity {
 				}
 			}
 			return false;
+		}
+	}
+	@Override
+	public void onPause() {
+		if (mAdView != null) {
+			mAdView.pause();
+		}
+		super.onPause();
+	}
+
+	@Override
+	public void onResume() {
+		super.onResume();
+		if (mAdView != null) {
+			mAdView.resume();
 		}
 	}
 }

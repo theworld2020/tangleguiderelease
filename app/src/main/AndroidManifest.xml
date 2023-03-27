@@ -13,11 +13,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="ExtraText"
+        android:hardwareAccelerated="true">
         <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-9916013140756269~9527507329"/>
+            android:value="ca-app-pub-5294649032178833~1008555605"/>
         <!--Sample-->
             <!--android:value="ca-app-pub-3940256099942544~3347511713"/>-->
 
@@ -26,20 +28,28 @@
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"
             android:exported="true"
-            tools:ignore="Instantiatable">
+            tools:ignore="Instantiatable"
+            android:hardwareAccelerated="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="openai.chatgpt.guide.view.WebViewActivity"/>
-        <activity android:name="openai.chatgpt.guide.view.WebViewActivity2"/>
-        <activity android:name="openai.chatgpt.guide.view.WebViewActivity3"/>
-        <activity android:name="openai.chatgpt.guide.view.WebViewActivity4"/>
-        <activity android:name="openai.chatgpt.guide.view.WebViewActivity5"/>
-        <activity android:name="openai.chatgpt.guide.view.WebViewActivity6"/>
-        <activity android:name="openai.chatgpt.guide.view.Support"/>
+        <activity android:name="openai.chatgpt.guide.view.WebViewActivity"
+            android:hardwareAccelerated="true"/>
+        <activity android:name="openai.chatgpt.guide.view.WebViewActivity2"
+            android:hardwareAccelerated="true"/>
+        <activity android:name="openai.chatgpt.guide.view.WebViewActivity3"
+            android:hardwareAccelerated="true"/>
+        <activity android:name="openai.chatgpt.guide.view.WebViewActivity4"
+            android:hardwareAccelerated="true"/>
+        <activity android:name="openai.chatgpt.guide.view.WebViewActivity5"
+            android:hardwareAccelerated="true"/>
+        <activity android:name="openai.chatgpt.guide.view.WebViewActivity6"
+            android:hardwareAccelerated="true"/>
+        <activity android:name="openai.chatgpt.guide.view.Support"
+            android:hardwareAccelerated="true"/>
         <activity android:name="openai.chatgpt.guide.view.Appopen"
             tools:ignore="Instantiatable,MissingClass" />
     </application>

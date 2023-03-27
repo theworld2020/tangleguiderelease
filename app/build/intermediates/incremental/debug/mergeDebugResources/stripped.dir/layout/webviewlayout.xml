@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#86D154" >
+
+        <TextView
+            android:id="@+id/searchtext"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Open AI Chat GPT"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000040" />
+
+        <!-- <EditText
+             android:id="@+id/search"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentTop="true"
+             android:layout_marginLeft="10dp"
+             android:layout_marginTop="5dp"
+             android:layout_weight="1" >
+         </EditText>
+         <ImageButton
+             android:id="@+id/searchimage"
+             android:layout_width="50dp"
+             android:layout_height="40dp"
+             android:layout_marginTop="5dp"
+             android:background="#00000000"
+             android:clickable="true"
+             android:onClick="search"
+             android:src="@drawable/search_drawable" />-->
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout1"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/adView"
+        android:scrollbarFadeDuration="30"
+        android:scrollbarStyle="outsideInset" />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"></com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

@@ -18,6 +18,10 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -26,12 +30,11 @@ import openai.chatgpt.guide.model.User;
 import openai.chatgpt.guide.utils.GridSpacingItemDecoration;
 import openai.chatgpt.guide.view.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity implements PostsAdapter.PostsAdapterListener  {
+public class MainActivity extends AppCompatActivity implements PostsAdapter.PostsAdapterListener {
 
     private static final long GAME_LENGTH_MILLISECONDS = 3000;
     private static final String AD_UNIT_ID = "ca-app-pub-3940256099942544/1033173712";
     private static final String TAG = "MyActivity";
-
     private MyClickHandlers handlers;
     private PostsAdapter mAdapter;
     private RecyclerView recyclerView;
@@ -40,22 +43,27 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
     private ImageView imageView;
     public ImageView imgClick;
 
+    InterstitialAd mInterstitialAd;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         handlers = new MyClickHandlers(this);
         initRecyclerView();
-
         renderProfile();
-        imgClick = (ImageView)findViewById(R.id.playprotect);
+        imgClick = (ImageView) findViewById(R.id.playprotect);
 
+        AdRequest adRequest = new AdRequest.Builder()
+                .build();
+        mInterstitialAd = new InterstitialAd(this);
+        // set the ad unit ID
+        mInterstitialAd.setAdUnitId(getString(R.string.interstitial_full_screen));
 
         imgClick.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=com.protect.guide")));
 
             }
@@ -125,7 +133,7 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
                 post.setImageUrl("https://i.postimg.cc/SRYMPk8n/future.jpg");
                 posts.add(post);
             }
-            if(i==6) {
+            if (i == 6) {
                 post.setImageUrl("https://i.postimg.cc/Gp3z5Tp9/limit.jpg");
                 posts.add(post);
             }
@@ -137,40 +145,34 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
     @Override
     public void onPostClicked(Post post) {
 
-        String url= post.getImageUrl();
-            if (Objects.equals(url, "https://i.postimg.cc/Z0kdt2FV/history.jpg"))
-            {
-                Intent intent = new Intent(this, WebViewActivity.class);
-                startActivity(intent);
-            }
-            else if (Objects.equals(url, "https://i.postimg.cc/7hjgPfD1/how.jpg"))
-            {
-                Intent intent = new Intent(this, WebViewActivity2.class);
-                startActivity(intent);
-            }
-
-            else if (Objects.equals(url, "https://i.postimg.cc/QM6SGNBm/why.jpg"))
-            {
-                Intent intent = new Intent(this, WebViewActivity3.class);
-                startActivity(intent);
-            }
-            else if (Objects.equals(url, "https://i.postimg.cc/nhbv6j3p/feature.jpg"))
-            {
-                Intent intent = new Intent(this, WebViewActivity4.class);
-                startActivity(intent);
-            }
-            else if (Objects.equals(url, "https://i.postimg.cc/SRYMPk8n/future.jpg"))
-            {
-                Intent intent = new Intent(this, WebViewActivity5.class);
-                startActivity(intent);
-              //  startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" +getPackageName())));
-            }
-            else if (Objects.equals(url, "https://i.postimg.cc/Gp3z5Tp9/limit.jpg"))
-            {
-                Intent intent = new Intent(this, WebViewActivity6.class);
-                //Intent intent = new Intent(this, Support.class);
-                startActivity(intent);
-            }
+        String url = post.getImageUrl();
+        if (Objects.equals(url, "https://i.postimg.cc/Z0kdt2FV/history.jpg")) {
+            showIntrest();
+            Intent intent = new Intent(this, WebViewActivity.class);
+            startActivity(intent);
+        } else if (Objects.equals(url, "https://i.postimg.cc/7hjgPfD1/how.jpg")) {
+            showIntrest();
+            Intent intent = new Intent(this, WebViewActivity2.class);
+            startActivity(intent);
+        } else if (Objects.equals(url, "https://i.postimg.cc/QM6SGNBm/why.jpg")) {
+            showIntrest();
+            Intent intent = new Intent(this, WebViewActivity3.class);
+            startActivity(intent);
+        } else if (Objects.equals(url, "https://i.postimg.cc/nhbv6j3p/feature.jpg")) {
+            showIntrest();
+            Intent intent = new Intent(this, WebViewActivity4.class);
+            startActivity(intent);
+        } else if (Objects.equals(url, "https://i.postimg.cc/SRYMPk8n/future.jpg")) {
+            showIntrest();
+            Intent intent = new Intent(this, WebViewActivity5.class);
+            startActivity(intent);
+            //  startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" +getPackageName())));
+        } else if (Objects.equals(url, "https://i.postimg.cc/Gp3z5Tp9/limit.jpg")) {
+            showIntrest();
+            Intent intent = new Intent(this, WebViewActivity6.class);
+            //Intent intent = new Intent(this, Support.class);
+            startActivity(intent);
+        }
     }
 
 
@@ -212,7 +214,7 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
         }
 
         public void onPostsClicked(View view) {
-           // Toast.makeText(context, "Posts is clicked!", Toast.LENGTH_SHORT).show();
+            // Toast.makeText(context, "Posts is clicked!", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -224,6 +226,24 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
         return Math.round(TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, r.getDisplayMetrics()));
     }
 
+    public void showIntrest() {
+        // Load ads into Interstitial Ads
+        AdRequest adRequest = new AdRequest.Builder()
+                .build();
+        mInterstitialAd.loadAd(adRequest);
+        mInterstitialAd.setAdListener(new AdListener() {
+            public void onAdLoaded() {
+                showInterstitial();
+            }
+        });
+    }
 
+    private void showInterstitial() {
+        if (mInterstitialAd.isLoaded()) {
+            mInterstitialAd.show();
+        }
+    }
 
 }
+
+

@@ -127,7 +127,6 @@ attr buttonCompat
 attr buttonGravity
 attr buttonIconDimen
 attr buttonPanelSideLayout
-attr buttonSize
 attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
@@ -164,7 +163,6 @@ attr chipStartPadding
 attr chipStrokeColor
 attr chipStrokeWidth
 attr chipStyle
-attr circleCrop
 attr closeIcon
 attr closeIconEnabled
 attr closeIconEndPadding
@@ -187,7 +185,6 @@ attr colorControlNormal
 attr colorError
 attr colorPrimary
 attr colorPrimaryDark
-attr colorScheme
 attr colorSecondary
 attr colorSwitchThumbNormal
 attr commitIcon
@@ -275,7 +272,6 @@ attr fontProviderFetchStrategy
 attr fontProviderFetchTimeout
 attr fontProviderPackage
 attr fontProviderQuery
-attr fontProviderSystemFontFamily
 attr fontStyle
 attr fontVariationSettings
 attr fontWeight
@@ -305,8 +301,6 @@ attr iconStartPadding
 attr iconTint
 attr iconTintMode
 attr iconifiedByDefault
-attr imageAspectRatio
-attr imageAspectRatioAdjust
 attr imageButtonStyle
 attr indeterminateProgressStyle
 attr initialActivityCount
@@ -421,7 +415,6 @@ attr navigationContentDescription
 attr navigationIcon
 attr navigationMode
 attr navigationViewStyle
-attr nestedScrollViewStyle
 attr numericModifiers
 attr overlapAnchor
 attr paddingBottomNoButtons
@@ -445,14 +438,12 @@ attr progressBarPadding
 attr progressBarStyle
 attr queryBackground
 attr queryHint
-attr queryPatterns
 attr radioButtonStyle
 attr ratingBarStyle
 attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
 attr reverseLayout
 attr rippleColor
-attr scopeUris
 attr scrimAnimationDuration
 attr scrimBackground
 attr scrimVisibleHeightTrigger
@@ -462,7 +453,6 @@ attr searchViewStyle
 attr seekBarStyle
 attr selectableItemBackground
 attr selectableItemBackgroundBorderless
-attr shortcutMatchRequired
 attr showAsAction
 attr showDividers
 attr showMotionSpec
@@ -601,11 +591,7 @@ attr windowNoTitle
 bool abc_action_bar_embed_tabs
 bool abc_allow_stacked_button_bar
 bool abc_config_actionMenuItemAllCaps
-bool enable_system_alarm_service_default
-bool enable_system_foreground_service_default
-bool enable_system_job_service_default
 bool mtrl_btn_textappearance_all_caps
-bool workmanager_test_configuration
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -658,17 +644,6 @@ color cardview_shadow_start_color
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
-color common_google_signin_btn_text_dark
-color common_google_signin_btn_text_dark_default
-color common_google_signin_btn_text_dark_disabled
-color common_google_signin_btn_text_dark_focused
-color common_google_signin_btn_text_dark_pressed
-color common_google_signin_btn_text_light
-color common_google_signin_btn_text_light_default
-color common_google_signin_btn_text_light_disabled
-color common_google_signin_btn_text_light_focused
-color common_google_signin_btn_text_light_pressed
-color common_google_signin_btn_tint
 color design_bottom_navigation_shadow_color
 color design_default_color_primary
 color design_default_color_primary_dark
@@ -1071,8 +1046,6 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
-drawable admob_close_button_black_circle_white_cross
-drawable admob_close_button_white_circle_black_cross
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -1083,25 +1056,6 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
-drawable common_full_open_on_phone
-drawable common_google_signin_btn_icon_dark
-drawable common_google_signin_btn_icon_dark_focused
-drawable common_google_signin_btn_icon_dark_normal
-drawable common_google_signin_btn_icon_dark_normal_background
-drawable common_google_signin_btn_icon_disabled
-drawable common_google_signin_btn_icon_light
-drawable common_google_signin_btn_icon_light_focused
-drawable common_google_signin_btn_icon_light_normal
-drawable common_google_signin_btn_icon_light_normal_background
-drawable common_google_signin_btn_text_dark
-drawable common_google_signin_btn_text_dark_focused
-drawable common_google_signin_btn_text_dark_normal
-drawable common_google_signin_btn_text_dark_normal_background
-drawable common_google_signin_btn_text_disabled
-drawable common_google_signin_btn_text_light
-drawable common_google_signin_btn_text_light_focused
-drawable common_google_signin_btn_text_light_normal
-drawable common_google_signin_btn_text_light_normal_background
 drawable cons
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
@@ -1109,8 +1063,6 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
-drawable googleg_disabled_color_18
-drawable googleg_standard_color_18
 drawable ic_add_white_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1200,10 +1152,9 @@ id action_text
 id actions
 id activity_chooser_view_content
 id adView
+id adView1
 id ad_view_container
 id add
-id adjust_height
-id adjust_width
 id alertTitle
 id all
 id always
@@ -1235,7 +1186,6 @@ id contentPanel
 id coordinator
 id custom
 id customPanel
-id dark
 id dataBinding
 id decor_content_parent
 id default_activity_button
@@ -1272,7 +1222,6 @@ id hr
 id hr1
 id icon
 id icon_group
-id icon_only
 id ifRoom
 id image
 id info
@@ -1281,9 +1230,7 @@ id italic
 id item_touch_helper_previous_elevation
 id labeled
 id largeLabel
-id layout
 id left
-id light
 id line1
 id line3
 id linearLayout1
@@ -1374,15 +1321,10 @@ id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
 id tag_accessibility_pane_title
-id tag_on_apply_window_listener
-id tag_on_receive_content_listener
-id tag_on_receive_content_mime_types
 id tag_screen_reader_focusable
-id tag_state_description
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
-id tag_window_insets_animation_callback
 id text
 id text2
 id textSpacerNoButtons
@@ -1417,7 +1359,6 @@ id view_offset_helper
 id view_tree_lifecycle_owner
 id visible
 id webView1
-id wide
 id withText
 id wrap
 id wrap_content
@@ -1477,7 +1418,6 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
-layout admob_empty_layout
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout content_main
@@ -1543,52 +1483,21 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string action_settings
-string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string banner_home_footer
 string border
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern
-string common_google_play_services_enable_button
-string common_google_play_services_enable_text
-string common_google_play_services_enable_title
-string common_google_play_services_install_button
-string common_google_play_services_install_text
-string common_google_play_services_install_title
-string common_google_play_services_notification_channel_name
-string common_google_play_services_notification_ticker
 string common_google_play_services_unknown_issue
-string common_google_play_services_unsupported_text
-string common_google_play_services_update_button
-string common_google_play_services_update_text
-string common_google_play_services_update_title
-string common_google_play_services_updating_text
-string common_google_play_services_wear_update_text
-string common_open_on_phone
-string common_signin_button_text
-string common_signin_button_text_long
-string copy_toast_msg
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
-string fallback_menu_item_copy_link
-string fallback_menu_item_open_in_browser
-string fallback_menu_item_share_link
 string followers
 string following
 string hide_bottom_view_on_scroll_behavior
 string interstitial_full_screen
 string mtrl_chip_close_icon_content_description
-string native_body
-string native_headline
-string native_media_view
-string offline_notification_text
-string offline_notification_title
-string offline_opt_in_confirm
-string offline_opt_in_confirmation
-string offline_opt_in_decline
-string offline_opt_in_message
-string offline_opt_in_title
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -2134,7 +2043,6 @@ styleable BottomAppBar backgroundTint fabAlignmentMode fabCradleMargin fabCradle
 styleable BottomNavigationView elevation itemBackground itemHorizontalTranslationEnabled itemIconSize itemIconTint itemTextAppearanceActive itemTextAppearanceInactive itemTextColor labelVisibilityMode menu
 styleable BottomSheetBehavior_Layout behavior_fitToContents behavior_hideable behavior_peekHeight behavior_skipCollapsed
 styleable ButtonBarLayout allowStacking
-styleable Capability queryPatterns shortcutMatchRequired
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable Chip android_textAppearance android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipStartPadding chipStrokeColor chipStrokeWidth closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible hideMotionSpec iconEndPadding iconStartPadding rippleColor showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical singleLine singleSelection
@@ -2152,7 +2060,7 @@ styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color dra
 styleable FloatingActionButton backgroundTint backgroundTintMode borderWidth elevation fabCustomSize fabSize hideMotionSpec hoveredFocusedTranslationZ maxImageSize pressedTranslationZ rippleColor showMotionSpec useCompatPadding
 styleable FloatingActionButton_Behavior_Layout behavior_autoHide
 styleable FlowLayout itemSpacing lineSpacing
-styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery fontProviderSystemFontFamily
+styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
@@ -2161,7 +2069,6 @@ styleable LinearConstraintLayout android_orientation
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
-styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
 styleable MaterialButton android_insetLeft android_insetRight android_insetTop android_insetBottom backgroundTint backgroundTintMode cornerRadius icon iconGravity iconPadding iconSize iconTint iconTintMode rippleColor strokeColor strokeWidth
 styleable MaterialCardView strokeColor strokeWidth
 styleable MaterialComponentsTheme bottomSheetDialogTheme bottomSheetStyle chipGroupStyle chipStandaloneStyle chipStyle colorAccent colorBackgroundFloating colorPrimary colorPrimaryDark colorSecondary editTextStyle floatingActionButtonStyle materialButtonStyle materialCardViewStyle navigationViewStyle scrimBackground snackbarButtonStyle tabStyle textAppearanceBody1 textAppearanceBody2 textAppearanceButton textAppearanceCaption textAppearanceHeadline1 textAppearanceHeadline2 textAppearanceHeadline3 textAppearanceHeadline4 textAppearanceHeadline5 textAppearanceHeadline6 textAppearanceOverline textAppearanceSubtitle1 textAppearanceSubtitle2 textInputStyle
@@ -2176,7 +2083,6 @@ styleable RecyclerView android_orientation android_descendantFocusability fastSc
 styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
-styleable SignInButton buttonSize colorScheme scopeUris
 styleable Snackbar snackbarButtonStyle snackbarStyle
 styleable SnackbarLayout android_maxWidth elevation maxActionInlineWidth
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
@@ -2192,4 +2098,3 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
-xml image_share_filepaths
