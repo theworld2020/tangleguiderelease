@@ -230,6 +230,7 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
         // Load ads into Interstitial Ads
         AdRequest adRequest = new AdRequest.Builder()
                 .build();
+
         mInterstitialAd.loadAd(adRequest);
         mInterstitialAd.setAdListener(new AdListener() {
             public void onAdLoaded() {

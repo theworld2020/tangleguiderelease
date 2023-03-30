@@ -27,7 +27,7 @@
         <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713" />
+            android:value="ca-app-pub-5294649032178833~1008555605" />
         <!-- Sample -->
         <!-- android:value="ca-app-pub-3940256099942544~3347511713"/> -->
 
@@ -64,7 +64,6 @@
         <activity
             android:name="openai.chatgpt.guide.view.Support"
             android:hardwareAccelerated="true" />
-        <activity android:name="openai.chatgpt.guide.view.Appopen" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

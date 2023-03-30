@@ -50,8 +50,6 @@
             android:hardwareAccelerated="true"/>
         <activity android:name="openai.chatgpt.guide.view.Support"
             android:hardwareAccelerated="true"/>
-        <activity android:name="openai.chatgpt.guide.view.Appopen"
-            tools:ignore="Instantiatable,MissingClass" />
     </application>
 
 </manifest>

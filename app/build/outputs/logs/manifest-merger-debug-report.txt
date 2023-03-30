@@ -1,17 +1,17 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-57:12
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-55:12
 MERGED from [androidx.databinding:databinding-adapters:7.4.2] /Users/ringer/.gradle/caches/transforms-3/0b6eae7a0528cd3cab0f7fa5c8b7fa21/transformed/databinding-adapters-7.4.2/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:7.4.2] /Users/ringer/.gradle/caches/transforms-3/38b9ae41e6a1be86e40d88c015980f00/transformed/databinding-runtime-7.4.2/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.0.0] /Users/ringer/.gradle/caches/transforms-3/ce3810c75c25af62618df9e3cfe877ad/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/ringer/.gradle/caches/transforms-3/30891a14132f501b0723920f18972b1c/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ringer/.gradle/caches/transforms-3/13e16167675b0703369ad876dcfd0cfb/transformed/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/ringer/.gradle/caches/transforms-3/9af7daf80e20cfd8f9a019ecc6818c38/transformed/jetified-glide-4.11.0/AndroidManifest.xml:2:1-12:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ringer/.gradle/caches/transforms-3/33d809cb016f59c870b9198a81faa47b/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads:19.4.0] /Users/ringer/.gradle/caches/transforms-3/ecea978d5e895e1a9f7848ba0accc0fe/transformed/jetified-play-services-ads-19.4.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ringer/.gradle/caches/transforms-3/33d809cb016f59c870b9198a81faa47b/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/ringer/.gradle/caches/transforms-3/b30514a67f00e2ec8f326dd4052357b6/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-gass:19.4.0] /Users/ringer/.gradle/caches/transforms-3/ecb3a03e90533baa5621c48b9725076f/transformed/jetified-play-services-gass-19.4.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ringer/.gradle/caches/transforms-3/77537136cad08b0200cf97071327198a/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
@@ -57,16 +57,16 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/ringer/.gradle/caches/transforms-3/ae4109ec1e873f2074e4c3a60211a759/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/ringer/.gradle/caches/transforms-3/b8168211f61aad3127929ec4ab285974/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads-base:19.4.0] /Users/ringer/.gradle/caches/transforms-3/ba1afb0492139381de1fea681cf3a0c2/transformed/jetified-play-services-ads-base-19.4.0/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-55:12
 	package
 		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-57:12
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-55:12
 		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-57:12
+		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:2:1-55:12
 		INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:3:5-51
@@ -93,7 +93,7 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /U
 	android:name
 		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:7:22-76
 application
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:10:5-55:19
+ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:10:5-53:19
 MERGED from [com.google.android.material:material:1.0.0] /Users/ringer/.gradle/caches/transforms-3/ce3810c75c25af62618df9e3cfe877ad/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /Users/ringer/.gradle/caches/transforms-3/ce3810c75c25af62618df9e3cfe877ad/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ringer/.gradle/caches/transforms-3/13e16167675b0703369ad876dcfd0cfb/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
@@ -214,12 +214,6 @@ ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/
 		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:52:13-47
 	android:name
 		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:51:19-67
-activity#openai.chatgpt.guide.view.Appopen
-ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:53:9-54:58
-	tools:ignore
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:54:13-55
-	android:name
-		ADDED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml:53:19-67
 uses-sdk
 INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/ringer/AndroidStudioProjects/tangleguiderelease1/app/src/main/AndroidManifest.xml
@@ -236,10 +230,10 @@ MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ringer/.gr
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ringer/.gradle/caches/transforms-3/13e16167675b0703369ad876dcfd0cfb/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/ringer/.gradle/caches/transforms-3/9af7daf80e20cfd8f9a019ecc6818c38/transformed/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/ringer/.gradle/caches/transforms-3/9af7daf80e20cfd8f9a019ecc6818c38/transformed/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ringer/.gradle/caches/transforms-3/33d809cb016f59c870b9198a81faa47b/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ringer/.gradle/caches/transforms-3/33d809cb016f59c870b9198a81faa47b/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads:19.4.0] /Users/ringer/.gradle/caches/transforms-3/ecea978d5e895e1a9f7848ba0accc0fe/transformed/jetified-play-services-ads-19.4.0/AndroidManifest.xml:21:5-23:52
 MERGED from [com.google.android.gms:play-services-ads:19.4.0] /Users/ringer/.gradle/caches/transforms-3/ecea978d5e895e1a9f7848ba0accc0fe/transformed/jetified-play-services-ads-19.4.0/AndroidManifest.xml:21:5-23:52
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ringer/.gradle/caches/transforms-3/33d809cb016f59c870b9198a81faa47b/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ringer/.gradle/caches/transforms-3/33d809cb016f59c870b9198a81faa47b/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/ringer/.gradle/caches/transforms-3/b30514a67f00e2ec8f326dd4052357b6/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/ringer/.gradle/caches/transforms-3/b30514a67f00e2ec8f326dd4052357b6/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-gass:19.4.0] /Users/ringer/.gradle/caches/transforms-3/ecb3a03e90533baa5621c48b9725076f/transformed/jetified-play-services-gass-19.4.0/AndroidManifest.xml:5:5-44

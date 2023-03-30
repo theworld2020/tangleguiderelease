@@ -46,6 +46,8 @@ dependencies {
     /*implementation 'com.android.support:multidex:1.0.3'*/
    implementation 'com.google.android.gms:play-services-ads:8.4.0'
 
+
+
     //noinspection GradleCompatible
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
     implementation 'androidx.appcompat:appcompat:1.2.0'
