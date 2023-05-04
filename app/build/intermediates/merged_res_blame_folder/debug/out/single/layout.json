@@ -1,18 +1,14 @@
 [
     {
-        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-mergeDebugResources-21:/layout/post_row_item.xml",
-        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/layout/post_row_item.xml"
+        "merged": "openai.chatgpt.guide.view.app-mergeDebugResources-38:/layout/post_row_item.xml",
+        "source": "openai.chatgpt.guide.view.app-main-41:/layout/post_row_item.xml"
     },
     {
-        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-mergeDebugResources-21:/layout/content_main.xml",
-        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/layout/content_main.xml"
+        "merged": "openai.chatgpt.guide.view.app-mergeDebugResources-38:/layout/activity_main.xml",
+        "source": "openai.chatgpt.guide.view.app-main-41:/layout/activity_main.xml"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-mergeDebugResources-21:/layout/activity_main.xml",
-        "source": "openai.chatgpt.guide.view.app-main-24:/layout/activity_main.xml"
-    },
-    {
-        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-mergeDebugResources-21:/layout/activity_main.xml",
-        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/layout/activity_main.xml"
+        "merged": "openai.chatgpt.guide.view.app-mergeDebugResources-38:/layout/content_main.xml",
+        "source": "openai.chatgpt.guide.view.app-main-41:/layout/content_main.xml"
     }
 ]

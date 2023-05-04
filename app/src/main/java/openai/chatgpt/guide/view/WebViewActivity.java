@@ -10,12 +10,14 @@ import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
 import java.lang.reflect.Method;
 
@@ -23,26 +25,21 @@ public class WebViewActivity extends AppCompatActivity {
 	boolean pageLoaded = false;
 	EditText edit;
 	WebView wb;
-	private AdView mAdView;
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.webviewlayout);
-		mAdView = (AdView) findViewById(R.id.adView1);
-		AdRequest adRequest = new AdRequest.Builder()
-				.build();
+		MobileAds.initialize(this, new OnInitializationCompleteListener() {
+			@Override
+			public void onInitializationComplete(InitializationStatus initializationStatus) {
+				//  Toast.makeText(this, " successful ", Toast.LENGTH_SHORT).show();
+			}
+		});
+
+		AdView mAdView;
+		mAdView = findViewById(R.id.adView1);
+		AdRequest adRequest = new AdRequest.Builder().build();
 		mAdView.loadAd(adRequest);
-		if (Utils.isNetworkAvailable(WebViewActivity.this)) {
-
-	//		showAds();
-
-		} else {
-			LinearLayout layoutid = (LinearLayout) findViewById(R.id.adView);
-
-			layoutid.setVisibility(View.GONE);
-
-		}
-
 		//String fileName = getIntent().getExtras().getString("url");
 		wb = (WebView) findViewById(R.id.webView1);
 		wb.getSettings().setJavaScriptEnabled(true);
@@ -78,20 +75,6 @@ public class WebViewActivity extends AppCompatActivity {
 		wb.loadUrl("file:///android_asset/tangle/History.html");
 
 	}
-
-	public void onDestroy() {
-		// TODO Auto-generated method stub
-		super.onDestroy();
-		wb = null;
-		edit = null;
-		if (mAdView != null) {
-			mAdView.destroy();
-		}
-		//super.onDestroy();
-	}
-
-
-
 	public void search(View v) {
 		if (pageLoaded) {
 			if (Build.VERSION.SDK_INT > Build.VERSION_CODES.GINGERBREAD)
@@ -121,23 +104,4 @@ public class WebViewActivity extends AppCompatActivity {
 			return false;
 		}
 	}
-
-
-	@Override
-	public void onPause() {
-		if (mAdView != null) {
-			mAdView.pause();
-		}
-		super.onPause();
-	}
-
-	@Override
-	public void onResume() {
-		super.onResume();
-		if (mAdView != null) {
-			mAdView.resume();
-		}
-	}
-
-
 }

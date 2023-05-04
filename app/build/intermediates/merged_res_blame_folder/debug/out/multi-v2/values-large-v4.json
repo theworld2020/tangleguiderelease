@@ -1,27 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "openai.chatgpt.guide.view.app-mergeDebugResources-20:/values-large-v4/values-large-v4.xml",
+            "outputFile": "openai.chatgpt.guide.view.app-mergeDebugResources-37:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/ringer/.gradle/caches/transforms-3/ce3810c75c25af62618df9e3cfe877ad/transformed/material-1.0.0/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/ringer/.gradle/caches/transforms-3/1d6008e40b174b18ef5fa9ea4cd35014/transformed/material-1.8.0/res/values-large-v4/values-large-v4.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,177",
-                        "endColumns": "121,133",
-                        "endOffsets": "172,306"
+                        "startLines": "2,3,4,10",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,177,311,752",
+                        "endLines": "2,3,9,15",
+                        "endColumns": "121,133,10,10",
+                        "endOffsets": "172,306,747,1190"
                     },
                     "to": {
-                        "startLines": "11,12",
-                        "startColumns": "4,4",
-                        "startOffsets": "752,874",
-                        "endColumns": "121,133",
-                        "endOffsets": "869,1003"
+                        "startLines": "11,12,13,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "752,874,1008,1449",
+                        "endLines": "11,12,18,24",
+                        "endColumns": "121,133,10,10",
+                        "endOffsets": "869,1003,1444,1887"
                     }
                 },
                 {
-                    "source": "/Users/ringer/.gradle/caches/transforms-3/30891a14132f501b0723920f18972b1c/transformed/appcompat-1.2.0/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/ringer/.gradle/caches/transforms-3/44fc53ad3ef1477fcc7b5dbdbf1cb4c0/transformed/appcompat-1.6.1/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

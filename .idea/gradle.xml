@@ -12,8 +12,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/unity-ads" />
-            <option value="$PROJECT_DIR$/unity-ads 2" />
           </set>
         </option>
       </GradleProjectSettings>
