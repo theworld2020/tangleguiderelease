@@ -1,14 +1,14 @@
 [
     {
-        "merged": "openai.chatgpt.guide.view.app-mergeReleaseResources-21:/layout/activity_main.xml",
-        "source": "openai.chatgpt.guide.view.app-main-23:/layout/activity_main.xml"
+        "merged": "openai.chatgpt.guide.view.app-mergeReleaseResources-38:/layout/activity_main.xml",
+        "source": "openai.chatgpt.guide.view.app-main-40:/layout/activity_main.xml"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-mergeReleaseResources-21:/layout/content_main.xml",
-        "source": "openai.chatgpt.guide.view.app-main-23:/layout/content_main.xml"
+        "merged": "openai.chatgpt.guide.view.app-mergeReleaseResources-38:/layout/content_main.xml",
+        "source": "openai.chatgpt.guide.view.app-main-40:/layout/content_main.xml"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-mergeReleaseResources-21:/layout/post_row_item.xml",
-        "source": "openai.chatgpt.guide.view.app-main-23:/layout/post_row_item.xml"
+        "merged": "openai.chatgpt.guide.view.app-mergeReleaseResources-38:/layout/post_row_item.xml",
+        "source": "openai.chatgpt.guide.view.app-main-40:/layout/post_row_item.xml"
     }
 ]

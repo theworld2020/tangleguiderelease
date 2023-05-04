@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "openai.chatgpt.guide.view.app-mergeReleaseResources-20:/values-v16/values-v16.xml",
+            "outputFile": "openai.chatgpt.guide.view.app-mergeReleaseResources-37:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/ringer/.gradle/caches/transforms-3/87c712ceb280b89563e287f590257de7/transformed/core-1.3.0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/Users/ringer/.gradle/caches/transforms-3/30891a14132f501b0723920f18972b1c/transformed/appcompat-1.2.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/ringer/.gradle/caches/transforms-3/44fc53ad3ef1477fcc7b5dbdbf1cb4c0/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/ringer/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]
