@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 33
 
     dataBinding {
         enabled = true
@@ -10,9 +10,9 @@ android {
         //applicationId "tanglemaster3D.tangle.guide"
         applicationId "openai.chatgpt.guide.view"
         minSdkVersion 19
-        targetSdkVersion 31
-        versionCode 4
-        versionName "1.0.3"
+        targetSdkVersion 33
+        versionCode 5
+        versionName "1.0.4"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
         multiDexEnabled true
     }
@@ -44,9 +44,7 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
     implementation 'androidx.appcompat:appcompat:1.2.0'
     /*implementation 'com.android.support:multidex:1.0.3'*/
-   implementation 'com.google.android.gms:play-services-ads:8.4.0'
-
-
+    implementation 'com.google.android.gms:play-services-ads:8.4.0'
 
     //noinspection GradleCompatible
     implementation 'androidx.recyclerview:recyclerview:1.0.0'

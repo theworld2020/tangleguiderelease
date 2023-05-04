@@ -1,178 +1,186 @@
 [
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable_playprotect.jpg.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/drawable/playprotect.jpg"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable-mdpi_search.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/drawable-mdpi/search.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "openai.chatgpt.guide.view.app-pngs-17:/drawable-hdpi/ic_launcher_background.png"
-    },
-    {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/mipmap-xhdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable_under.jpg.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/drawable/under.jpg"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "openai.chatgpt.guide.view.app-merged_res-22:/layout_activity_main.xml.flat",
         "source": "openai.chatgpt.guide.view.app-main-24:/layout/activity_main.xml"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable-xxxhdpi_ic_add_white_24dp.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/drawable-xxxhdpi/ic_add_white_24dp.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-pngs-17:/drawable-anydpi-v21/ic_launcher_background.xml"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/menu_menu_main.xml.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/menu/menu_main.xml"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "openai.chatgpt.guide.view.app-pngs-17:/drawable-mdpi/ic_launcher_background.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-pngs-17:/drawable-ldpi/ic_launcher_background.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/layout_post_row_item.xml.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/layout/post_row_item.xml"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable-xxhdpi_ic_add_white_24dp.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/drawable-xxhdpi/ic_add_white_24dp.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/mipmap-ldpi_ic_launcher.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/mipmap-ldpi/ic_launcher.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable-mdpi_ic_add_white_24dp.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/drawable-mdpi/ic_add_white_24dp.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable-xhdpi_ic_add_white_24dp.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/drawable-xhdpi/ic_add_white_24dp.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-pngs-17:/drawable-xxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "openai.chatgpt.guide.view.app-pngs-17:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/menu_menu_main.xml.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/menu/menu_main.xml"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable_chatgpt.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/drawable/chatgpt.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/layout_webviewlayout.xml.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/layout/webviewlayout.xml"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable-hdpi_ic_add_white_24dp.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/drawable-hdpi/ic_add_white_24dp.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/layout_support.xml.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/layout/support.xml"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable-xxhdpi_ic_add_white_24dp.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/drawable-xxhdpi/ic_add_white_24dp.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable_ic_launcher_background.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/drawable/ic_launcher_background.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable-mdpi_search.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/drawable-mdpi/search.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "openai.chatgpt.guide.view.app-pngs-17:/drawable-xxxhdpi/ic_launcher_background.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-pngs-17:/drawable-xhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/mipmap-ldpi_ic_launcher.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/mipmap-ldpi/ic_launcher.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-pngs-17:/drawable-mdpi/ic_launcher_background.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/layout_activity_main.xml.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/layout/activity_main.xml"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "openai.chatgpt.guide.view.app-pngs-17:/drawable-ldpi/ic_launcher_background.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable_search_drawable.xml.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/drawable/search_drawable.xml"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable-mdpi_ic_add_white_24dp.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/drawable-mdpi/ic_add_white_24dp.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable_cons.jpg.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/drawable/cons.jpg"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable-xxxhdpi_ic_add_white_24dp.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/drawable-xxxhdpi/ic_add_white_24dp.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable_ic_launcher_background.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/drawable/ic_launcher_background.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable_cons.jpg.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/drawable/cons.jpg"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "openai.chatgpt.guide.view.app-pngs-17:/drawable-xxhdpi/ic_launcher_background.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/layout_content_main.xml.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/layout/content_main.xml"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/layout_content_main.xml.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/layout/content_main.xml"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "openai.chatgpt.guide.view.app-pngs-17:/drawable-anydpi-v21/ic_launcher_background.xml"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable_under.jpg.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/drawable/under.jpg"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/layout_post_row_item.xml.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/layout/post_row_item.xml"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-pngs-17:/drawable-hdpi/ic_launcher_background.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "openai.chatgpt.guide.view.app-pngs-17:/drawable-xhdpi/ic_launcher_background.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable_search_drawable.xml.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/drawable/search_drawable.xml"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable-hdpi_ic_add_white_24dp.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/drawable-hdpi/ic_add_white_24dp.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/layout_support.xml.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/layout/support.xml"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/drawable-mdpi_search_clicked.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/drawable-mdpi/search_clicked.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable_playprotect.jpg.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/drawable/playprotect.jpg"
     },
     {
-        "merged": "openai.chatgpt.guide.view.app-merged_res-22:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "openai.chatgpt.guide.view.app-main-24:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-pngs-17:/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable-mdpi_search_clicked.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/drawable-mdpi/search_clicked.png"
+    },
+    {
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-pngs-17:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/drawable-xhdpi_ic_add_white_24dp.png.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/drawable-xhdpi/ic_add_white_24dp.png"
+    },
+    {
+        "merged": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-merged_res-22:/layout_webviewlayout.xml.flat",
+        "source": "/Users/ringer/.gradle/daemon/7.5/openai.chatgpt.guide.view.app-main-24:/layout/webviewlayout.xml"
     }
 ]

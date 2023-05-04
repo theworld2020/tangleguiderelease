@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.util.TypedValue;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import androidx.annotation.RequiresApi;
@@ -20,6 +21,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 
 import java.util.ArrayList;
@@ -42,8 +44,9 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
     private User user;
     private ImageView imageView;
     public ImageView imgClick;
-
+    private AdView mAdView;
     InterstitialAd mInterstitialAd;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,9 +56,20 @@ public class MainActivity extends AppCompatActivity implements PostsAdapter.Post
         initRecyclerView();
         renderProfile();
         imgClick = (ImageView) findViewById(R.id.playprotect);
-
+        mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder()
                 .build();
+        mAdView.loadAd(adRequest);
+        if (WebViewActivity.Utils.isNetworkAvailable(MainActivity.this)) {
+
+            //		showAds();
+
+        } else {
+            LinearLayout layoutid = (LinearLayout) findViewById(R.id.adView);
+
+            layoutid.setVisibility(View.GONE);
+
+        }
         mInterstitialAd = new InterstitialAd(this);
         // set the ad unit ID
         mInterstitialAd.setAdUnitId(getString(R.string.interstitial_full_screen));

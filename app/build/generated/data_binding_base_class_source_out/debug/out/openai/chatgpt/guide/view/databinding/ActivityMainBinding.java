@@ -10,12 +10,16 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+import com.google.android.gms.ads.AdView;
 import java.lang.Deprecated;
 import java.lang.Object;
 import openai.chatgpt.guide.model.User;
 import openai.chatgpt.guide.view.R;
 
 public abstract class ActivityMainBinding extends ViewDataBinding {
+  @NonNull
+  public final AdView adView;
+
   @NonNull
   public final ContentMainBinding content;
 
@@ -26,8 +30,9 @@ public abstract class ActivityMainBinding extends ViewDataBinding {
   protected User mUser;
 
   protected ActivityMainBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ContentMainBinding content, Toolbar toolbar) {
+      AdView adView, ContentMainBinding content, Toolbar toolbar) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.adView = adView;
     this.content = content;
     this.toolbar = toolbar;
   }

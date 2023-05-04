@@ -12,13 +12,14 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
     @Nullable
     private static final android.util.SparseIntArray sViewsWithIds;
     static {
-        sIncludes = new androidx.databinding.ViewDataBinding.IncludedLayouts(3);
+        sIncludes = new androidx.databinding.ViewDataBinding.IncludedLayouts(4);
         sIncludes.setIncludes(0, 
             new String[] {"content_main"},
             new int[] {1},
             new int[] {openai.chatgpt.guide.view.R.layout.content_main});
         sViewsWithIds = new android.util.SparseIntArray();
         sViewsWithIds.put(R.id.toolbar, 2);
+        sViewsWithIds.put(R.id.adView, 3);
     }
     // views
     @NonNull
@@ -29,10 +30,11 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityMainBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 3, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds));
     }
     private ActivityMainBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 2
+            , (com.google.android.gms.ads.AdView) bindings[3]
             , (openai.chatgpt.guide.view.databinding.ContentMainBinding) bindings[1]
             , (androidx.appcompat.widget.Toolbar) bindings[2]
             );
